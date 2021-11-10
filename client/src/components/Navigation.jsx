@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navigation = () => {
+const Navigation = ({ handleSearchClick }) => {
   return (
     <nav class='bg-gray-800 shadow light:bg-white'>
       <div class='container px-5 py-6 mx-auto md:flex'>
@@ -120,6 +120,7 @@ const Navigation = () => {
             </span>
 
             <input
+              onChange={handleSearchClick}
               type='text'
               class='w-full py-2 pl-10 pr-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-red-500 dark:focus:border-red-500 focus:outline-none '
               placeholder='Search'
