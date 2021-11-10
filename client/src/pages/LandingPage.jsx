@@ -19,7 +19,7 @@ const LandingPage = () => {
             </p>
             <div class='flex justify-center'>
               <button class='inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg'>
-                View Statistics
+                View Stats
               </button>
               <button class='ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg'>
                 Contact Me
