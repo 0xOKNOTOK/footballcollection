@@ -1,11 +1,8 @@
 import React from 'react'
+import LandingPage from './pages/LandingPage'
 
 function App() {
-  return (
-    <div className='flex flex-col w-3/4 mx-auto my-12 items-center'>
-      <h1>Super cool page</h1>
-    </div>
-  )
+  return <LandingPage />
 }
 
 export default App
