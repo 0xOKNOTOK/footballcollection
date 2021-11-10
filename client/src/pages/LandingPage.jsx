@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 
 const LandingPage = () => {
@@ -34,6 +35,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   )
 }
