@@ -10,6 +10,8 @@
 
 /src/styles.css
 
+/public/images
+
 # production
 /build
 

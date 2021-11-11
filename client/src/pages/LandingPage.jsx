@@ -28,7 +28,7 @@ const LandingPage = () => {
             <img
               class='object-cover object-center rounded'
               alt='hero'
-              src='https://dummyimage.com/720x600'
+              src='/images/landing_page_image.png'
             />
           </div>
         </div>
