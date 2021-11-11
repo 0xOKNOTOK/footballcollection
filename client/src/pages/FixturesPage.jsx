@@ -5,7 +5,7 @@ const FixturesPage = () => {
     <main class='h-screen bg-gray-100 dark:bg-gray-900'>
       <section class='text-gray-600 body-font'>
         <div class='container px-5 py-24 mx-auto'>
-          <div class='flex flex-wrap -mx-4 -my-8'>
+          <div class='flex flex-wrap content-center justify-center -mx-4 -my-8'>
             <div class='py-8 px-4 lg:w-4/10 mr-2 border rounded-md border-gray-500 dark:border-gray-700'>
               <div class='h-full flex items-start'>
                 <div class='w-12 flex-shrink-0 flex flex-col text-center leading-none'>
