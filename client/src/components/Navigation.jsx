@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import useDarkMode from '../hooks/useDarkMode'
 import ThemeToggle from './ThemeToggle'
 
 const Navigation = ({ handleSearchClick }) => {
   const [colorMode, setColorMode] = useDarkMode()
+  const [collapsed, setCollapsed] = useState(false)
+
   return (
     <nav class=' bg-gray-200 shadow dark:bg-gray-800'>
       <div class='container px-5 py-6 mx-auto md:flex'>
@@ -70,6 +72,7 @@ const Navigation = ({ handleSearchClick }) => {
           <div class='flex md:hidden'>
             <button
               type='button'
+              onClick={() => setCollapsed(collapsed ? false : 'collapsed')}
               class=' text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400'
               aria-label='toggle menu'
             >
