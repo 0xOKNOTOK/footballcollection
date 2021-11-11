@@ -1,6 +1,9 @@
 import React from 'react'
+import useDarkMode from '../hooks/useDarkMode'
+import ThemeToggle from './ThemeToggle'
 
 const Navigation = ({ handleSearchClick }) => {
+  const [colorMode, setColorMode] = useDarkMode()
   return (
     <nav class=' bg-gray-200 shadow dark:bg-gray-800'>
       <div class='container px-5 py-6 mx-auto md:flex'>
@@ -127,6 +130,7 @@ const Navigation = ({ handleSearchClick }) => {
             />
           </div>
         </div>
+        <ThemeToggle />
       </div>
     </nav>
   )
