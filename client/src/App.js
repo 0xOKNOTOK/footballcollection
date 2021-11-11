@@ -16,8 +16,8 @@ const App = () => {
   }
   return (
     <div>
+      <Navigation handleSearchChange={handleSearchChange} />
       <BrowserRouter>
-        <Navigation handleSearchChange={handleSearchChange} />
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/players' element={<PlayersPage />} />

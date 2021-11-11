@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
-    <main class=''>
+    <main>
       <section class='h-screen bg-gray-100 text-gray-400 dark:bg-gray-900 body-font flex items-center flex-row'>
         <div class=' container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
           <div class='lg:w-screen md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
