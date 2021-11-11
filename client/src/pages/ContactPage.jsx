@@ -3,13 +3,13 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <main>
-      <section class='text-gray-400 bg-gray-900 body-font relative'>
+      <section class='text-gray-400 bg-gray-100 dark:bg-gray-900 body-font relative'>
         <div class='container px-6 py-24 mx-auto'>
           <div class='flex flex-col text-center w-full mb-12'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-white'>
+            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-white'>
               Get In Touch
             </h1>
-            <p class='lg:w-2/3 mx-auto leading-relaxed text-base'>
+            <p class='lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 dark:text-gray-300'>
               Spotted something wrong with the site? Need a question answered?
               Send me a message!
             </p>
@@ -18,39 +18,48 @@ const ContactPage = () => {
             <div class='flex flex-wrap -m-2'>
               <div class='p-2 w-1/2'>
                 <div class='relative'>
-                  <label for='name' class='leading-7 text-sm text-gray-400'>
+                  <label
+                    for='name'
+                    class='leading-7 text-sm text-gray-600 dark:text-gray-200'
+                  >
                     Name
                   </label>
                   <input
                     type='text'
                     id='name'
                     name='name'
-                    class='w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    class='w-full bg-gray-300 dark:bg-gray-800 bg-opacity-40 rounded border border-gray-300 focus:border-red-500 dark:focus:bg-gray-900 focus:bg-gray-300 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-800 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
               <div class='p-2 w-1/2'>
                 <div class='relative'>
-                  <label for='email' class='leading-7 text-sm text-gray-400'>
+                  <label
+                    for='email'
+                    class='leading-7 text-sm text-gray-600 dark:text-gray-200'
+                  >
                     Email
                   </label>
                   <input
                     type='email'
                     id='email'
                     name='email'
-                    class='w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    class='w-full bg-gray-300 dark:bg-gray-800 bg-opacity-40 rounded border border-gray-300 focus:border-red-500 dark:focus:bg-gray-900 focus:bg-gray-300 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-800 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
               <div class='p-2 w-full'>
                 <div class='relative'>
-                  <label for='message' class='leading-7 text-sm text-gray-400'>
+                  <label
+                    for='message'
+                    class='leading-7 text-sm text-gray-700 dark:text-gray-400'
+                  >
                     Message
                   </label>
                   <textarea
                     id='message'
                     name='message'
-                    class='w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                    class='w-full bg-gray-300 dark:bg-gray-800 bg-opacity-40 rounded border border-gray-300 focus:border-red-500 dark:focus:bg-gray-900 focus:bg-gray-300 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-800 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   ></textarea>
                 </div>
               </div>
@@ -74,7 +83,7 @@ const ContactPage = () => {
               </div>
               <div class='p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center'>
                 <a class='text-red-400'>@rossgrDEV</a>
-                <p class='leading-normal my-5'>
+                <p class='leading-normal my-5 text-gray-700 dark:text-gray-300'>
                   Get in touch online at <br></br> _______
                 </p>
                 <span class='inline-flex'>
