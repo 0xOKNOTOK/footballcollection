@@ -89,6 +89,13 @@ const Navigation = ({ handleSearchClick }) => {
         <div class='w-full md:flex md:items-center md:justify-between'>
           <div class='flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0'>
             <a
+              href='/fixtures'
+              class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
+            >
+              Fixtures
+            </a>
+
+            <a
               href='/players'
               class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
             >

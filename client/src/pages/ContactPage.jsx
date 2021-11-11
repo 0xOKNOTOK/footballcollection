@@ -83,12 +83,14 @@ const ContactPage = () => {
                 </button>
               </div>
               <div class='p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center'>
-                <a class='text-red-400'>@rossgrDEV</a>
+                <a class='text-red-400' href='https://twitter.com/rossgrDEV'>
+                  @rossgrDEV
+                </a>
                 <p class='leading-normal my-5 text-gray-700 dark:text-gray-300'>
                   Get in touch online at <br></br> _______
                 </p>
                 <span class='inline-flex'>
-                  <a class='text-gray-500'>
+                  <a class='text-gray-500' href='https://github.com/rossgr'>
                     <svg
                       fill='currentColor'
                       stroke-linecap='round'
