@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const ContactPage = () => {
   return (
-    <main>
-      <section class='text-gray-400 bg-gray-100 dark:bg-gray-900 body-font relative'>
+    <main class='h-screen bg-gray-100 dark:bg-gray-900'>
+      <section class='h-5/6 text-gray-400  body-font relative'>
         <div class='container px-6 py-24 mx-auto'>
           <div class='flex flex-col text-center w-full mb-12'>
             <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-white'>
@@ -59,7 +60,7 @@ const ContactPage = () => {
                   <textarea
                     id='message'
                     name='message'
-                    class='w-full bg-gray-300 dark:bg-gray-800 bg-opacity-40 rounded border border-gray-300 focus:border-red-500 dark:focus:bg-gray-900 focus:bg-gray-300 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-800 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    class='w-full min-h-100 bg-gray-300 dark:bg-gray-800 bg-opacity-40 rounded border border-gray-300 focus:border-red-500 dark:focus:bg-gray-900 focus:bg-gray-300 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-800 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   ></textarea>
                 </div>
               </div>
@@ -150,6 +151,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   )
 }

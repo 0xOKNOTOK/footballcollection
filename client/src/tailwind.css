@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
-    .main {
-        height: 100%
-    }
+    body > #root > div {
+        height: 100vh;
+      }
 }
