@@ -4,7 +4,7 @@ import Navigation from './components/Navigation'
 
 import LandingPage from './pages/LandingPage'
 import ContactPage from './pages/ContactPage'
-import StatisticsPage from './pages/StatisticsPage'
+import StatsPage from './pages/StatsPage'
 import FixturesPage from './pages/FixturesPage'
 import TeamsPage from './pages/TeamsPage'
 import ClubPage from './pages/ClubPage'
@@ -22,11 +22,11 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<LandingPage />} />
+          <Route path='/stats' element={<StatsPage />} />
           <Route path='/fixtures' element={<FixturesPage />} />
           <Route path='/teams' element={<TeamsPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/clubpage' element={<ClubPage />} />
-          <Route path='/stats' element={<StatisticsPage />} />
         </Routes>
       </BrowserRouter>
     </div>

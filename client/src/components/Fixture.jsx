@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fixture = () => {
   return (
-    <div class='py-8 px-4 lg:w-4/10 mr-2 border rounded-md border-gray-500 dark:border-gray-700'>
+    <div class='py-8 px-4 lg:w-4/10 mr-2 mt-2 border rounded-md border-gray-500 dark:border-gray-700'>
       <div class='h-full flex items-start'>
         <div class='w-12 flex-shrink-0 flex flex-col text-center leading-none'>
           <span class='text-gray-500 pb-2 mb-2 border-b-2 border-gray-200'>
@@ -18,10 +18,12 @@ const Fixture = () => {
           </h2>
           <h1 class='title-font text-xl font-medium text-gray-700 dark:text-gray-200 mb-3'>
             <a href='/clubpage' class='underline'>
-              {' '}
               Manchester City
             </a>{' '}
-            vs Manchester United
+            vs{' '}
+            <a href='/clubpage' class='underline'>
+              Manchester United
+            </a>
           </h1>
           <h2 class='leading-relaxed mb-5 text-gray-700 dark:text-gray-300'>
             Score: 2-0
