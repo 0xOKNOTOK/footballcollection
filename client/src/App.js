@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage'
 import StatisticsPage from './pages/StatisticsPage'
 import FixturesPage from './pages/FixturesPage'
 import TeamsPage from './pages/TeamsPage'
+import ClubPage from './pages/ClubPage'
 
 const App = () => {
   const [searchBar, setSearchBar] = useState('')
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/fixtures' element={<FixturesPage />} />
           <Route path='/teams' element={<TeamsPage />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/clubpage' element={<ClubPage />} />
           <Route path='/stats' element={<StatisticsPage />} />
         </Routes>
       </BrowserRouter>

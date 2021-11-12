@@ -17,7 +17,11 @@ const Fixture = () => {
             PREMIER LEAGUE
           </h2>
           <h1 class='title-font text-xl font-medium text-gray-700 dark:text-gray-200 mb-3'>
-            Manchester City vs Manchester United
+            <a href='/clubpage' class='underline'>
+              {' '}
+              Manchester City
+            </a>{' '}
+            vs Manchester United
           </h1>
           <h2 class='leading-relaxed mb-5 text-gray-700 dark:text-gray-300'>
             Score: 2-0

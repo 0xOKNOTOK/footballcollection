@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 
 import TeamsCard from '../components/TeamsCard'
@@ -71,6 +72,7 @@ const TeamsPage = () => {
           </TeamsPosition>
         </div>
       </section>
+      <Footer />
     </MainComponent>
   )
 }
