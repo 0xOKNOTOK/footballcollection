@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 import TeamPlayer from '../components/TeamPlayer'
 
-const TeamPage = () => {
+const ClubPage = () => {
   return (
     <MainComponent>
       <section class='text-gray-600 bg-white dark:bg-gray-900 body-font'>
@@ -38,4 +38,4 @@ const TeamPage = () => {
   )
 }
 
-export default TeamPage
+export default ClubPage
