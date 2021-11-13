@@ -6,121 +6,181 @@
           "teamID": 1,
           "name": "Newcastle United",
           "abbreviation": "NEW",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Eddie Howe",
+          "players": [],
+          "stadium": "St James Park"
         },
         {
           "teamID": 2,
           "name": "Arsenal FC",
           "abbreviation": "ARS",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Mikel Arteta",
+          "players": [],
+          "stadium": "Emirates Stadium"
         },
         {
           "teamID": 3,
           "name": "Aston Villa",
           "abbreviation": "VIL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Steven Gerrard",
+          "players": [],
+          "stadium": "Villa Park"
         },
         {
           "teamID": 4,
           "name": "Brentford FC",
           "abbreviation": "BFC",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Thomas Frank",
+          "players": [],
+          "stadium": "Brentford Community Stadium"
         },
         {
           "teamID": 5,
           "name": "Brighton & Hove Albion",
           "abbreviation": "BHA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Graham Potter",
+          "players": [],
+          "stadium": "The Amex Stadium"
         },
         {
           "teamID": 6,
           "name": "Burnley FC",
           "abbreviation": "BUR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Sean Dyche",
+          "players": [],
+          "stadium": "Turf Moor"
         },
         {
           "teamID": 7,
           "name": "Chelsea FC",
           "abbreviation": "CFC",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Thomas Tuchel",
+          "players": [],
+          "stadium": "Stamford Bridge"
         },
         {
           "teamID": 8,
           "name": "Crystal Palace",
           "abbreviation": "PAL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Patrick Viera",
+          "players": [],
+          "stadium": "Selhurst Park"
         },
         {
           "teamID": 9,
           "name": "Everton FC",
           "abbreviation": "EVE",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Rafael Benitez",
+          "players": [],
+          "stadium": "Goodison Park"
         },
         {
           "teamID": 10,
           "name": "Leeds United",
           "abbreviation": "LUFC",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Marcelo Bielsa",
+          "players": [],
+          "stadium": "Elland Road"
         },
         {
           "teamID": 11,
           "name": "Leicester City",
           "abbreviation": "LCFC",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Brendan Rodgers",
+          "players": [],
+          "stadium": "King Power Stadium"
         },
         {
           "teamID": 12,
           "name": "Liverpool FC",
           "abbreviation": "LFC",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Jurgen Klopp",
+          "players": [],
+          "stadium": "Anfield"
         },
         {
           "teamID": 13,
           "name": "Manchester City",
           "abbreviation": "MCI",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Josep Guardiola",
+          "players": [],
+          "stadium": "Etihad Stadium"
         },
         {
           "teamID": 14,
           "name": "Manchester United",
           "abbreviation": "MNU",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Ole Gunnar Solkjær",
+          "players": [],
+          "stadium": "Old Trafford"
         },
         {
           "teamID": 15,
           "name": "Norwich City",
           "abbreviation": "NOR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Dean Smith",
+          "players": [],
+          "stadium": "Carrow Road"
         },
         {
           "teamID": 16,
           "name": "Southampton FC",
           "abbreviation": "SOT",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Ralph Hasenhüttl",
+          "players": [],
+          "stadium": "Saint Mary's "
         },
         {
           "teamID": 17,
           "name": "Tottenham Hotspur",
           "abbreviation": "TOT",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Antonio Conte",
+          "players": [],
+          "stadium": "The Tottenham Hotspur Stadium"
         },
         {
           "teamID": 18,
           "name": "Watford FC",
           "abbreviation": "WAT",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Francisco Javier Muñoz Llompart",
+          "players": [],
+          "stadium": "Vicarage Road"
         },
         {
           "teamID": 19,
           "name": "West Ham United",
           "abbreviation": "WHU",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "David Moyes",
+          "players": [],
+          "stadium": "The London Stadium"
         },
         {
           "teamID": 20,
           "name": "Wolverhampton Wanderers",
           "abbreviation": "WOL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Bruno Lage",
+          "players": [],
+          "stadium": "Molineux Stadium"
         }
       ]
     },
@@ -130,163 +190,217 @@
           "teamID": 21,
           "name": "AFC Bournemouth",
           "abbreviation": "BOU",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Scott Parker",
+          "players": [],
+          "stadium": "Vitality Stadium"
         },
         {
           "teamID": 22,
           "name": "Barnsley FC",
           "abbreviation": "BAR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Markus Schopp",
+          "players": [],
+          "stadium": "Oakwell Stadium"
         },
         {
           "teamID": 23,
           "name": "Birmingham City FC",
           "abbreviation": "BIR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Lee Bowyer",
+          "players": [],
+          "stadium": "St. Andrews"
         },
         {
           "teamID": 24,
           "name": "Blackburn Rovers FC",
           "abbreviation": "BLA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Tony Mowbray",
+          "players": [],
+          "stadium": "Ewood Park"
         },
         {
           "teamID": 25,
           "name": "Blackpool FC",
           "abbreviation": "BOU",
-          "clubCrest": ""
-        },
-        {
-          "teamID": 26,
-          "name": "Barnsley FC",
-          "abbreviation": "BAR",
-          "clubCrest": ""
-        },
-        {
-          "teamID": 27,
-          "name": "Birmingham City FC",
-          "abbreviation": "BIR",
-          "clubCrest": ""
-        },
-        {
-          "teamID": 28,
-          "name": "Blackburn Rovers FC",
-          "abbreviation": "BLA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Neil Critchley",
+          "players": [],
+          "stadium": "Bloomfield Road"
         },
         {
           "teamID": 29,
           "name": "Bristol City",
           "abbreviation": "BRI",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Nigel Pearson",
+          "players": [],
+          "stadium": "Ashton Gate Stadium"
         },
         {
           "teamID": 30,
           "name": "Cardiff City",
           "abbreviation": "CAR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Steve Morison",
+          "players": [],
+          "stadium": "Cardiff City Stadium"
         },
         {
           "teamID": 31,
           "name": "Coventry City",
           "abbreviation": "COV",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Mark Robins",
+          "players": [],
+          "stadium": "Coventry Building Society Arena"
         },
         {
           "teamID": 32,
           "name": "Derby County",
           "abbreviation": "DER",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Wayne Rooney",
+          "players": [],
+          "stadium": "Pride Park Stadium"
         },
         {
           "teamID": 33,
           "name": "Fulham",
           "abbreviation": "FUL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Marco Silva",
+          "players": [],
+          "stadium": "Craven Cottage"
         },
         {
           "teamID": 34,
           "name": "Huddersfield Town FC",
           "abbreviation": "HUD",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Carlos Corberán",
+          "players": [],
+          "stadium": "The John Smith's Stadium"
         },
         {
           "teamID": 35,
           "name": "Hull City",
           "abbreviation": "HUL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Grant McCann",
+          "players": [],
+          "stadium": "MKM Stadium"
         },
         {
           "teamID": 36,
           "name": "Luton Town FC",
           "abbreviation": "LUT",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Nathan Jones",
+          "players": [],
+          "stadium": "Kenilworth Road"
         },
         {
           "teamID": 37,
           "name": "Middlesborough FC",
           "abbreviation": "MID",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Chris Wilder",
+          "players": [],
+          "stadium": "Riverside Stadium"
         },
         {
           "teamID": 38,
           "name": "Millwall FC",
           "abbreviation": "MIL",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Gary Rowett",
+          "players": [],
+          "stadium": "The Den"
         },
         {
           "teamID": 39,
           "name": "Nottingham Forest",
           "abbreviation": "FOR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Steve Cooper",
+          "players": [],
+          "stadium": "The City Ground"
         },
         {
           "teamID": 40,
           "name": "Peterborough United FC",
           "abbreviation": "PET",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Darren Ferguson",
+          "players": [],
+          "stadium": "Weston Homes Stadium"
         },
         {
           "teamID": 41,
           "name": "Preston North End FC",
           "abbreviation": "PNE",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Frankie McAvoy",
+          "players": [],
+          "stadium": "Deepdale Stadium"
         },
         {
           "teamID": 42,
           "name": "Queens Park Rangers",
           "abbreviation": "QPR",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Mark Warburton",
+          "players": [],
+          "stadium": "Kiyan Prince Foundation Stadium"
         },
         {
           "teamID": 43,
           "name": "Reading FC",
           "abbreviation": "REA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Veljko Paunović",
+          "players": [],
+          "stadium": "Madejski Stadium"
         },
         {
           "teamID": 44,
           "name": "Sheffield United FC",
           "abbreviation": "SHU",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Slaviša Jokanović",
+          "players": [],
+          "stadium": "Bramall Lane"
         },
         {
           "teamID": 45,
           "name": "Stoke City FC",
           "abbreviation": "STO",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Michael O'Neill",
+          "players": [],
+          "stadium": "bet365 Stadium"
         },
         {
           "teamID": 46,
           "name": "Swansea City AFC",
           "abbreviation": "SWA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Russell Martin",
+          "players": [],
+          "stadium": "Swansea.com Stadium"
         },
         {
           "teamID": 47,
           "name": "West Brommich Albion",
           "abbreviation": "WBA",
-          "clubCrest": ""
+          "clubCrest": "",
+          "manager": "Valérien Ismaël",
+          "players": [],
+          "stadium": "The Hawthorns"
         }
       ]
     }
