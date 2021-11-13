@@ -1,3 +1,5 @@
+const db = require('../database/queries')
+
 exports.getAllFixtures = (req, res) => {
   res.status(200).json({ data: 'success' })
 }
