@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "teamID": 7456,
+      "name": "Newcastle United",
+      "abbreviation": "NEW",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 3453,
+      "name": "Arsenal FC",
+      "abbreviation": "ARS",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 6355,
+      "name": "Aston Villa",
+      "abbreviation": "VIL",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 1684,
+      "name": "Brentford FC",
+      "abbreviation": "BFC",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 9673,
+      "name": "Brighton & Hove Albion",
+      "abbreviation": "BHA",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 7543,
+      "name": "Burnley FC",
+      "abbreviation": "BUR",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 5436,
+      "name": "Chelsea FC",
+      "abbreviation": "CFC",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 1236,
+      "name": "Crystal Palace",
+      "abbreviation": "PAL",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 6419,
+      "name": "Everton FC",
+      "abbreviation": "EVE",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 9462,
+      "name": "Leeds United",
+      "abbreviation": "LUFC",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 8899,
+      "name": "Leicester City",
+      "abbreviation": "LCFC",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 4563,
+      "name": "Liverpool FC",
+      "abbreviation": "LFC",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 7452,
+      "name": "Manchester City",
+      "abbreviation": "MCI",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 8956,
+      "name": "Manchester United",
+      "abbreviation": "MNU",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 6529,
+      "name": "Norwich City",
+      "abbreviation": "NOR",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 1246,
+      "name": "Southampton FC",
+      "abbreviation": "SOT",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 1243,
+      "name": "Tottenham Hotspur",
+      "abbreviation": "TOT",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 2617,
+      "name": "Watford FC",
+      "abbreviation": "WAT",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 7815,
+      "name": "West Ham United",
+      "abbreviation": "WHU",
+      "clubCrest": ""
+    },
+    {
+      "teamID": 5665,
+      "name": "Wolverhampton Wanderers",
+      "abbreviation": "WOL",
+      "clubCrest": ""
+    }
+  ]
+}
