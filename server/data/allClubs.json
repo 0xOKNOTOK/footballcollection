@@ -3,123 +3,289 @@
     {
       "PremierLeague": [
         {
-          "teamID": 7456,
+          "teamID": 1,
           "name": "Newcastle United",
           "abbreviation": "NEW",
           "clubCrest": ""
         },
         {
-          "teamID": 3453,
+          "teamID": 2,
           "name": "Arsenal FC",
           "abbreviation": "ARS",
           "clubCrest": ""
         },
         {
-          "teamID": 6355,
+          "teamID": 3,
           "name": "Aston Villa",
           "abbreviation": "VIL",
           "clubCrest": ""
         },
         {
-          "teamID": 1684,
+          "teamID": 4,
           "name": "Brentford FC",
           "abbreviation": "BFC",
           "clubCrest": ""
         },
         {
-          "teamID": 9673,
+          "teamID": 5,
           "name": "Brighton & Hove Albion",
           "abbreviation": "BHA",
           "clubCrest": ""
         },
         {
-          "teamID": 7543,
+          "teamID": 6,
           "name": "Burnley FC",
           "abbreviation": "BUR",
           "clubCrest": ""
         },
         {
-          "teamID": 5436,
+          "teamID": 7,
           "name": "Chelsea FC",
           "abbreviation": "CFC",
           "clubCrest": ""
         },
         {
-          "teamID": 1236,
+          "teamID": 8,
           "name": "Crystal Palace",
           "abbreviation": "PAL",
           "clubCrest": ""
         },
         {
-          "teamID": 6419,
+          "teamID": 9,
           "name": "Everton FC",
           "abbreviation": "EVE",
           "clubCrest": ""
         },
         {
-          "teamID": 9462,
+          "teamID": 10,
           "name": "Leeds United",
           "abbreviation": "LUFC",
           "clubCrest": ""
         },
         {
-          "teamID": 8899,
+          "teamID": 11,
           "name": "Leicester City",
           "abbreviation": "LCFC",
           "clubCrest": ""
         },
         {
-          "teamID": 4563,
+          "teamID": 12,
           "name": "Liverpool FC",
           "abbreviation": "LFC",
           "clubCrest": ""
         },
         {
-          "teamID": 7452,
+          "teamID": 13,
           "name": "Manchester City",
           "abbreviation": "MCI",
           "clubCrest": ""
         },
         {
-          "teamID": 8956,
+          "teamID": 14,
           "name": "Manchester United",
           "abbreviation": "MNU",
           "clubCrest": ""
         },
         {
-          "teamID": 6529,
+          "teamID": 15,
           "name": "Norwich City",
           "abbreviation": "NOR",
           "clubCrest": ""
         },
         {
-          "teamID": 1246,
+          "teamID": 16,
           "name": "Southampton FC",
           "abbreviation": "SOT",
           "clubCrest": ""
         },
         {
-          "teamID": 1243,
+          "teamID": 17,
           "name": "Tottenham Hotspur",
           "abbreviation": "TOT",
           "clubCrest": ""
         },
         {
-          "teamID": 2617,
+          "teamID": 18,
           "name": "Watford FC",
           "abbreviation": "WAT",
           "clubCrest": ""
         },
         {
-          "teamID": 7815,
+          "teamID": 19,
           "name": "West Ham United",
           "abbreviation": "WHU",
           "clubCrest": ""
         },
         {
-          "teamID": 5665,
+          "teamID": 20,
           "name": "Wolverhampton Wanderers",
           "abbreviation": "WOL",
+          "clubCrest": ""
+        }
+      ]
+    },
+    {
+      "EFLChampionship": [
+        {
+          "teamID": 21,
+          "name": "AFC Bournemouth",
+          "abbreviation": "BOU",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 22,
+          "name": "Barnsley FC",
+          "abbreviation": "BAR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 23,
+          "name": "Birmingham City FC",
+          "abbreviation": "BIR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 24,
+          "name": "Blackburn Rovers FC",
+          "abbreviation": "BLA",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 25,
+          "name": "Blackpool FC",
+          "abbreviation": "BOU",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 26,
+          "name": "Barnsley FC",
+          "abbreviation": "BAR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 27,
+          "name": "Birmingham City FC",
+          "abbreviation": "BIR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 28,
+          "name": "Blackburn Rovers FC",
+          "abbreviation": "BLA",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 29,
+          "name": "Bristol City",
+          "abbreviation": "BRI",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 30,
+          "name": "Cardiff City",
+          "abbreviation": "CAR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 31,
+          "name": "Coventry City",
+          "abbreviation": "COV",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 32,
+          "name": "Derby County",
+          "abbreviation": "DER",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 33,
+          "name": "Fulham",
+          "abbreviation": "FUL",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 34,
+          "name": "Huddersfield Town FC",
+          "abbreviation": "HUD",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 35,
+          "name": "Hull City",
+          "abbreviation": "HUL",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 36,
+          "name": "Luton Town FC",
+          "abbreviation": "LUT",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 37,
+          "name": "Middlesborough FC",
+          "abbreviation": "MID",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 38,
+          "name": "Millwall FC",
+          "abbreviation": "MIL",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 39,
+          "name": "Nottingham Forest",
+          "abbreviation": "FOR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 40,
+          "name": "Peterborough United FC",
+          "abbreviation": "PET",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 41,
+          "name": "Preston North End FC",
+          "abbreviation": "PNE",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 42,
+          "name": "Queens Park Rangers",
+          "abbreviation": "QPR",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 43,
+          "name": "Reading FC",
+          "abbreviation": "REA",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 44,
+          "name": "Sheffield United FC",
+          "abbreviation": "SHU",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 45,
+          "name": "Stoke City FC",
+          "abbreviation": "STO",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 46,
+          "name": "Swansea City AFC",
+          "abbreviation": "SWA",
+          "clubCrest": ""
+        },
+        {
+          "teamID": 47,
+          "name": "West Brommich Albion",
+          "abbreviation": "WBA",
           "clubCrest": ""
         }
       ]

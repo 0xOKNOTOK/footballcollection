@@ -7,7 +7,7 @@ const errorHandler = (error, req, res, next) => {
 
   console.log(err)
 
-  // IF STATEMENTS TO MATCH DATABASE ERRORS [THINKING POSTGRES OR MAYBE MONGO...]
+  // todo - IF STATEMENTS TO MATCH DATABASE ERRORS
 
   res.status(err.statusCode || 500).json({
     success: false,
