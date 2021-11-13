@@ -1,12 +1,12 @@
 const express = require('express')
 const {
-  getPremierLeagueTeams,
+  getTeamsByLeague,
   getAllTeams,
-  getPremierLeagueTeam,
+  getSingleTeamById,
 } = require('../controllers/teams')
 const teamsRouter = express.Router()
 
 teamsRouter.route('/').get(getAllTeams)
-teamsRouter.route('/epl').get(getPremierLeagueTeams)
-teamsRouter.route('/epl/:id').get(getPremierLeagueTeam)
+teamsRouter.route('/epl').get(getTeamsByLeague)
+teamsRouter.route('/epl/:id').get(getSingleTeamById)
 module.exports = teamsRouter
