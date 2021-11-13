@@ -12,12 +12,12 @@ app.use(express.json())
 app.use(cors())
 
 // Route files
-const teams = require('./routes/teams')
+const teamsRouter = require('./routes/teams')
 const fixturesRouter = require('./routes/fixtures')
 
 // Mount Routes For Use
 
-app.use('/api/teams', teams)
+app.use('/api/teams', teamsRouter)
 app.use('/api/fixtures', fixturesRouter)
 
 app.listen(PORT, () =>
