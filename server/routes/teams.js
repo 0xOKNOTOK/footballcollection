@@ -7,6 +7,6 @@ const {
 const teamsRouter = express.Router()
 
 teamsRouter.route('/').get(getAllTeams)
-teamsRouter.route('/epl').get(getTeamsByLeague)
-teamsRouter.route('/epl/:id').get(getSingleTeamById)
+teamsRouter.route('/league').get(getTeamsByLeague)
+teamsRouter.route('/league/:id').get(getSingleTeamById)
 module.exports = teamsRouter

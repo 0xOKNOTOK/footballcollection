@@ -1,8 +1,12 @@
-// TEMP LOCAL DB
-const allClubs = require('../data/allClubs.json')
-const premierLeagueClubs = require('../data/premierLeague.json')
+// @desc Custom handling middleware to standardise errors and async requests.
+const CustomErrorResponse = require('../utilities/CustomErrorResponse')
 
-// GET [ALL TEAMS FROM SUPPORTED LEAGUES]
+// @desc Temporary database for testing.
+const allClubs = require('../data/allClubs.json')
+
+// @desc      get all supported teams.
+// @route     GET /api/teams
+// @access    Public
 exports.getAllTeams = (req, res) => {
   try {
     res.status(200).json(allClubs)
@@ -11,7 +15,9 @@ exports.getAllTeams = (req, res) => {
   }
 }
 
-// GET [ALL TEAMS FROM LEAGUE]
+// @desc      get all teams by league name/id.
+// @route     GET /api/teams/league
+// @access    Public
 exports.getTeamsByLeague = (req, res) => {
   try {
     res.status(200).json({})
@@ -20,7 +26,9 @@ exports.getTeamsByLeague = (req, res) => {
   }
 }
 
-// GET [ALL PREMIER LEAGUE TEAMS]
+// @desc      get single team by name/id.
+// @route     GET /api/teams/league/:id
+// @access    Public
 exports.getSingleTeamById = (req, res) => {
   try {
     res
