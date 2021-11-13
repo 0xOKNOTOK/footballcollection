@@ -16,7 +16,8 @@ const teams = require('./routes/teams')
 
 // Mount Routes For Use
 
-app.use('/api/v1/teams', teams)
+app.use('/api/teams', teams)
 
-app.get('/', (req, res) => res.send('Hello World!'))
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}! s`))
+app.listen(PORT, () =>
+  console.log(`Football Collection API live on port: ${PORT}.`)
+)
