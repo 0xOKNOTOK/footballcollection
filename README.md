@@ -13,5 +13,5 @@ Currently unavailable in current build state...
 
 **Client:** React & TailwindCSS
 
-**Server:** Node & Express
+**Server:** Node, Express & Postgres
 
