@@ -1,6 +1,6 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'admin',
+  user: process.env.POSTGRES_SU,
   host: 'localhost',
   database: 'api',
   password: process.env.POOL_PASSWORD,
