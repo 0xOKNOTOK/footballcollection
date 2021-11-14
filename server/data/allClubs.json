@@ -8,7 +8,7 @@
           "abbreviation": "NEW",
           "clubCrest": "",
           "manager": "Eddie Howe",
-          "players": [],
+          "players": [{ "name": "David" }],
           "stadium": "St James Park"
         },
         {

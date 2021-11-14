@@ -1,6 +1,4 @@
 node_modules
-/client/public/assets
-/client/src/styles.css
-/client/src/assets
+
 *.env
-server\.env
+/server/public

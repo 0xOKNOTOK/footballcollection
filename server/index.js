@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3002
 
 // Body parser
 app.use(express.json())
+app.use('/cdn', express.static(path.join(__dirname, 'public')))
 
 // CORS
 app.use(cors())
