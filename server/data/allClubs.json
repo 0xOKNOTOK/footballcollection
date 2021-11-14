@@ -3,7 +3,7 @@
     {
       "PremierLeague": [
         {
-          "teamID": 1,
+          "id": 1,
           "name": "Newcastle United",
           "abbreviation": "NEW",
           "clubCrest": "",
@@ -12,7 +12,7 @@
           "stadium": "St James Park"
         },
         {
-          "teamID": 2,
+          "id": 2,
           "name": "Arsenal FC",
           "abbreviation": "ARS",
           "clubCrest": "",
@@ -21,7 +21,7 @@
           "stadium": "Emirates Stadium"
         },
         {
-          "teamID": 3,
+          "id": 3,
           "name": "Aston Villa",
           "abbreviation": "VIL",
           "clubCrest": "",
@@ -30,7 +30,7 @@
           "stadium": "Villa Park"
         },
         {
-          "teamID": 4,
+          "id": 4,
           "name": "Brentford FC",
           "abbreviation": "BFC",
           "clubCrest": "",
@@ -39,7 +39,7 @@
           "stadium": "Brentford Community Stadium"
         },
         {
-          "teamID": 5,
+          "id": 5,
           "name": "Brighton & Hove Albion",
           "abbreviation": "BHA",
           "clubCrest": "",
@@ -48,7 +48,7 @@
           "stadium": "The Amex Stadium"
         },
         {
-          "teamID": 6,
+          "id": 6,
           "name": "Burnley FC",
           "abbreviation": "BUR",
           "clubCrest": "",
@@ -57,7 +57,7 @@
           "stadium": "Turf Moor"
         },
         {
-          "teamID": 7,
+          "id": 7,
           "name": "Chelsea FC",
           "abbreviation": "CFC",
           "clubCrest": "",
@@ -66,7 +66,7 @@
           "stadium": "Stamford Bridge"
         },
         {
-          "teamID": 8,
+          "id": 8,
           "name": "Crystal Palace",
           "abbreviation": "PAL",
           "clubCrest": "",
@@ -75,7 +75,7 @@
           "stadium": "Selhurst Park"
         },
         {
-          "teamID": 9,
+          "id": 9,
           "name": "Everton FC",
           "abbreviation": "EVE",
           "clubCrest": "",
@@ -84,7 +84,7 @@
           "stadium": "Goodison Park"
         },
         {
-          "teamID": 10,
+          "id": 10,
           "name": "Leeds United",
           "abbreviation": "LUFC",
           "clubCrest": "",
@@ -93,7 +93,7 @@
           "stadium": "Elland Road"
         },
         {
-          "teamID": 11,
+          "id": 11,
           "name": "Leicester City",
           "abbreviation": "LCFC",
           "clubCrest": "",
@@ -102,7 +102,7 @@
           "stadium": "King Power Stadium"
         },
         {
-          "teamID": 12,
+          "id": 12,
           "name": "Liverpool FC",
           "abbreviation": "LFC",
           "clubCrest": "",
@@ -111,7 +111,7 @@
           "stadium": "Anfield"
         },
         {
-          "teamID": 13,
+          "id": 13,
           "name": "Manchester City",
           "abbreviation": "MCI",
           "clubCrest": "",
@@ -325,7 +325,7 @@
           "stadium": "Etihad Stadium"
         },
         {
-          "teamID": 14,
+          "id": 14,
           "name": "Manchester United",
           "abbreviation": "MNU",
           "clubCrest": "",
@@ -334,7 +334,7 @@
           "stadium": "Old Trafford"
         },
         {
-          "teamID": 15,
+          "id": 15,
           "name": "Norwich City",
           "abbreviation": "NOR",
           "clubCrest": "",
@@ -343,7 +343,7 @@
           "stadium": "Carrow Road"
         },
         {
-          "teamID": 16,
+          "id": 16,
           "name": "Southampton FC",
           "abbreviation": "SOT",
           "clubCrest": "",
@@ -352,7 +352,7 @@
           "stadium": "Saint Mary's "
         },
         {
-          "teamID": 17,
+          "id": 17,
           "name": "Tottenham Hotspur",
           "abbreviation": "TOT",
           "clubCrest": "",
@@ -361,7 +361,7 @@
           "stadium": "The Tottenham Hotspur Stadium"
         },
         {
-          "teamID": 18,
+          "id": 18,
           "name": "Watford FC",
           "abbreviation": "WAT",
           "clubCrest": "",
@@ -370,7 +370,7 @@
           "stadium": "Vicarage Road"
         },
         {
-          "teamID": 19,
+          "id": 19,
           "name": "West Ham United",
           "abbreviation": "WHU",
           "clubCrest": "",
@@ -379,7 +379,7 @@
           "stadium": "The London Stadium"
         },
         {
-          "teamID": 20,
+          "id": 20,
           "name": "Wolverhampton Wanderers",
           "abbreviation": "WOL",
           "clubCrest": "",
@@ -392,7 +392,7 @@
     {
       "EFLChampionship": [
         {
-          "teamID": 21,
+          "id": 21,
           "name": "AFC Bournemouth",
           "abbreviation": "BOU",
           "clubCrest": "",
@@ -401,7 +401,7 @@
           "stadium": "Vitality Stadium"
         },
         {
-          "teamID": 22,
+          "id": 22,
           "name": "Barnsley FC",
           "abbreviation": "BAR",
           "clubCrest": "",
@@ -410,7 +410,7 @@
           "stadium": "Oakwell Stadium"
         },
         {
-          "teamID": 23,
+          "id": 23,
           "name": "Birmingham City FC",
           "abbreviation": "BIR",
           "clubCrest": "",
@@ -419,7 +419,7 @@
           "stadium": "St. Andrews"
         },
         {
-          "teamID": 24,
+          "id": 24,
           "name": "Blackburn Rovers FC",
           "abbreviation": "BLA",
           "clubCrest": "",
@@ -428,7 +428,7 @@
           "stadium": "Ewood Park"
         },
         {
-          "teamID": 25,
+          "id": 25,
           "name": "Blackpool FC",
           "abbreviation": "BOU",
           "clubCrest": "",
@@ -437,7 +437,7 @@
           "stadium": "Bloomfield Road"
         },
         {
-          "teamID": 29,
+          "id": 29,
           "name": "Bristol City",
           "abbreviation": "BRI",
           "clubCrest": "",
@@ -446,7 +446,7 @@
           "stadium": "Ashton Gate Stadium"
         },
         {
-          "teamID": 30,
+          "id": 30,
           "name": "Cardiff City",
           "abbreviation": "CAR",
           "clubCrest": "",
@@ -455,7 +455,7 @@
           "stadium": "Cardiff City Stadium"
         },
         {
-          "teamID": 31,
+          "id": 31,
           "name": "Coventry City",
           "abbreviation": "COV",
           "clubCrest": "",
@@ -464,7 +464,7 @@
           "stadium": "Coventry Building Society Arena"
         },
         {
-          "teamID": 32,
+          "id": 32,
           "name": "Derby County",
           "abbreviation": "DER",
           "clubCrest": "",
@@ -473,7 +473,7 @@
           "stadium": "Pride Park Stadium"
         },
         {
-          "teamID": 33,
+          "id": 33,
           "name": "Fulham",
           "abbreviation": "FUL",
           "clubCrest": "",
@@ -482,7 +482,7 @@
           "stadium": "Craven Cottage"
         },
         {
-          "teamID": 34,
+          "id": 34,
           "name": "Huddersfield Town FC",
           "abbreviation": "HUD",
           "clubCrest": "",
@@ -491,7 +491,7 @@
           "stadium": "The John Smith's Stadium"
         },
         {
-          "teamID": 35,
+          "id": 35,
           "name": "Hull City",
           "abbreviation": "HUL",
           "clubCrest": "",
@@ -500,7 +500,7 @@
           "stadium": "MKM Stadium"
         },
         {
-          "teamID": 36,
+          "id": 36,
           "name": "Luton Town FC",
           "abbreviation": "LUT",
           "clubCrest": "",
@@ -509,7 +509,7 @@
           "stadium": "Kenilworth Road"
         },
         {
-          "teamID": 37,
+          "id": 37,
           "name": "Middlesborough FC",
           "abbreviation": "MID",
           "clubCrest": "",
@@ -518,7 +518,7 @@
           "stadium": "Riverside Stadium"
         },
         {
-          "teamID": 38,
+          "id": 38,
           "name": "Millwall FC",
           "abbreviation": "MIL",
           "clubCrest": "",
@@ -527,7 +527,7 @@
           "stadium": "The Den"
         },
         {
-          "teamID": 39,
+          "id": 39,
           "name": "Nottingham Forest",
           "abbreviation": "FOR",
           "clubCrest": "",
@@ -536,7 +536,7 @@
           "stadium": "The City Ground"
         },
         {
-          "teamID": 40,
+          "id": 40,
           "name": "Peterborough United FC",
           "abbreviation": "PET",
           "clubCrest": "",
@@ -545,7 +545,7 @@
           "stadium": "Weston Homes Stadium"
         },
         {
-          "teamID": 41,
+          "id": 41,
           "name": "Preston North End FC",
           "abbreviation": "PNE",
           "clubCrest": "",
@@ -554,7 +554,7 @@
           "stadium": "Deepdale Stadium"
         },
         {
-          "teamID": 42,
+          "id": 42,
           "name": "Queens Park Rangers",
           "abbreviation": "QPR",
           "clubCrest": "",
@@ -563,7 +563,7 @@
           "stadium": "Kiyan Prince Foundation Stadium"
         },
         {
-          "teamID": 43,
+          "id": 43,
           "name": "Reading FC",
           "abbreviation": "REA",
           "clubCrest": "",
@@ -572,7 +572,7 @@
           "stadium": "Madejski Stadium"
         },
         {
-          "teamID": 44,
+          "id": 44,
           "name": "Sheffield United FC",
           "abbreviation": "SHU",
           "clubCrest": "",
@@ -581,7 +581,7 @@
           "stadium": "Bramall Lane"
         },
         {
-          "teamID": 45,
+          "id": 45,
           "name": "Stoke City FC",
           "abbreviation": "STO",
           "clubCrest": "",
@@ -590,7 +590,7 @@
           "stadium": "bet365 Stadium"
         },
         {
-          "teamID": 46,
+          "id": 46,
           "name": "Swansea City AFC",
           "abbreviation": "SWA",
           "clubCrest": "",
@@ -599,7 +599,7 @@
           "stadium": "Swansea.com Stadium"
         },
         {
-          "teamID": 47,
+          "id": 47,
           "name": "West Brommich Albion",
           "abbreviation": "WBA",
           "clubCrest": "",

@@ -20,7 +20,7 @@ exports.getAllTeams = (req, res) => {
 // @access    Public
 exports.getTeamsByLeague = (req, res) => {
   try {
-    res.status(200).json({})
+    res.status(200).json(allClubs.data[0])
   } catch (error) {
     res.status(500).json({ data: 'fail' })
   }
@@ -30,11 +30,10 @@ exports.getTeamsByLeague = (req, res) => {
 // @route     GET /api/teams/league/:id
 // @access    Public
 exports.getSingleTeamById = (req, res) => {
-  try {
-    res
-      .status(200)
-      .json({ name: 'Manchester City Football Club', abbreviation: 'MCI' })
-  } catch (error) {
-    res.status(500).json({ data: 'fail' })
-  }
+  const reqId = Number(req.params.id)
+  const allPremierLeagueClubs = allClubs.data[0].PremierLeague
+  console.log(typeof req.params.id)
+  const foundTeam = allPremierLeagueClubs.find(club => club.id === reqId)
+
+  res.status(200).json({ foundTeam })
 }
