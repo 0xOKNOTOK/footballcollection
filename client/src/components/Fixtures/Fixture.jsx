@@ -1,6 +1,5 @@
 import React from 'react'
-import ManCity from '../../assets/manchester_city.png'
-import ManUnited from '../../assets/manchester_united.png'
+
 const Fixture = () => {
   return (
     <div class='py-8 px-4 lg:w-4/10 mr-2 mt-2 border rounded-md border-gray-500 dark:border-gray-700'>
@@ -16,12 +15,10 @@ const Fixture = () => {
             <img
               alt=' Manchester City Football Club Crest'
               class='w-10 h-10 mt-2 mb-2'
-              src={ManCity}
             />
             <img
               alt='Manchester United Football Club Crest'
               class='w-10 h-10'
-              src={ManUnited}
             />
           </span>
         </div>

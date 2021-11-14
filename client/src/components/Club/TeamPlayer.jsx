@@ -1,5 +1,4 @@
 import React from 'react'
-import playerImage from '../../assets/kevin_de_bruyne.png'
 
 const TeamPlayer = () => {
   return (
@@ -8,7 +7,6 @@ const TeamPlayer = () => {
         <img
           alt='player'
           class='w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4'
-          src={playerImage}
         />
         <div class='flex-grow'>
           <h2 class='text-gray-800 dark:text-gray-300 title-font font-medium'>

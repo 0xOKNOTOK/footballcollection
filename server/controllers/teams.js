@@ -38,5 +38,5 @@ exports.getSingleTeamById = (req, res, next) => {
       new CustomErrorResponse(`Team not found with id of ${req.params.id}`, 404)
     )
   }
-  res.status(200).json({ foundTeam })
+  res.status(200).json(foundTeam)
 }
