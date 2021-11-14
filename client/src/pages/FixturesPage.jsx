@@ -1,5 +1,5 @@
 import React from 'react'
-import Fixture from '../components/Fixture'
+import Fixture from '../components/Fixtures/Fixture'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 

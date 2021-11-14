@@ -2,8 +2,8 @@ import React from 'react'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 
-import TeamsCard from '../components/TeamsCard'
-import TeamsPosition from '../components/TeamsPosition'
+import TeamsCard from '../components/Teams/TeamsCard'
+import TeamsPosition from '../components/Teams/TeamsPosition'
 
 const TeamsPage = () => {
   return (

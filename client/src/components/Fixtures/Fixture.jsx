@@ -1,6 +1,6 @@
 import React from 'react'
-import ManCity from '../assets/manchester_city.png'
-import ManUnited from '../assets/manchester_united.png'
+import ManCity from '../../assets/manchester_city.png'
+import ManUnited from '../../assets/manchester_united.png'
 const Fixture = () => {
   return (
     <div class='py-8 px-4 lg:w-4/10 mr-2 mt-2 border rounded-md border-gray-500 dark:border-gray-700'>

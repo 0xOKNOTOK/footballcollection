@@ -1,8 +1,8 @@
 import React from 'react'
-import ClubInformation from '../components/ClubInformation'
+import ClubInformation from '../components/Club/ClubInformationCard'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
-import TeamPlayer from '../components/TeamPlayer'
+import TeamPlayer from '../components/Club/TeamPlayer'
 
 const ClubPage = () => {
   return (

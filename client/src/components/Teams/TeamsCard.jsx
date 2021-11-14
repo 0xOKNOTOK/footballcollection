@@ -1,5 +1,5 @@
 import React from 'react'
-import ClubImage from '../assets/manchester_city.png'
+import ClubImage from '../../assets/manchester_city.png'
 
 const TeamsCard = () => {
   return (

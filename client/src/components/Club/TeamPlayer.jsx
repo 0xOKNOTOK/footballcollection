@@ -1,5 +1,5 @@
 import React from 'react'
-import playerImage from '../assets/kevin_de_bruyne.png'
+import playerImage from '../../assets/kevin_de_bruyne.png'
 
 const TeamPlayer = () => {
   return (
