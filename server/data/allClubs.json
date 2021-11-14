@@ -115,8 +115,213 @@
           "name": "Manchester City",
           "abbreviation": "MCI",
           "clubCrest": "",
-          "manager": "Josep Guardiola",
-          "players": [],
+          "manager": {
+            "name": "Josep Guardiola",
+            "nationality": "Spain",
+            "joined": "1 JULY 2016"
+          },
+          "players": [
+            {
+              "name": "Ederson",
+              "position": "goalkeeper",
+              "number": "31",
+              "onLoan": false,
+              "nationality": "Brazilian",
+              "joined": "1 JULY 2017"
+            },
+            {
+              "name": "Zack Steffen",
+              "position": "goalkeeper",
+              "number": "13",
+              "onLoan": false,
+              "nationality": "United States",
+              "joined": "1 JULY 2019"
+            },
+            {
+              "name": "Scott Carson",
+              "position": "goalkeeper",
+              "number": "33",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "8 AUGUST 2019"
+            },
+            {
+              "name": "ARIJANET MURIC",
+              "position": "goalkeeper",
+              "number": "49",
+              "onLoan": true,
+              "nationality": "Kosovo",
+              "joined": "1 JULY 2017"
+            },
+            {
+              "name": "Kyle Walker",
+              "position": "defender",
+              "number": "2",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "14 JULY 2017"
+            },
+            {
+              "name": "Ruben Dias",
+              "position": "defender",
+              "number": "3",
+              "onLoan": false,
+              "nationality": "Portual",
+              "joined": "29 SEPTEMBER 2020"
+            },
+            {
+              "name": "Aymeric Laporte",
+              "position": "defender",
+              "number": "14",
+              "onLoan": false,
+              "nationality": "Spain",
+              "joined": "29 SEPTEMBER 2020"
+            },
+            {
+              "name": "John Stones",
+              "position": "defender",
+              "number": "5",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "9 AUGUST 2016"
+            },
+            {
+              "name": "Nathan Ake",
+              "position": "defender",
+              "number": "6",
+              "onLoan": false,
+              "nationality": "Netherlands",
+              "joined": "5 AUGUST 2020"
+            },
+            {
+              "name": "Joao Cancelo",
+              "position": "defender",
+              "number": "27",
+              "onLoan": false,
+              "nationality": "Portugal",
+              "joined": "7 AUGUST 2019"
+            },
+            {
+              "name": "Oleksandr Zinchenko",
+              "position": "defender",
+              "number": "11",
+              "onLoan": false,
+              "nationality": "Ukraine",
+              "joined": "4 JUNE 2016"
+            },
+            {
+              "name": "Phillipe Sandler",
+              "position": "defender",
+              "number": "34",
+              "onLoan": true,
+              "nationality": "Dutch",
+              "joined": "26 OCTOBER 2018"
+            },
+            {
+              "name": "Ilkay Gundogan",
+              "position": "midfielder",
+              "number": "8",
+              "onLoan": false,
+              "nationality": "Germany",
+              "joined": "1 JULY 2016"
+            },
+            {
+              "name": "Jack Grealish",
+              "position": "midfielder",
+              "number": "10",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "5 AUGUST 2021"
+            },
+            {
+              "name": "Phil Foden",
+              "position": "midfielder",
+              "number": "47",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "1 JULY 2016"
+            },
+            {
+              "name": "Cole Palmer",
+              "position": "midfielder",
+              "number": "80",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "24 APRIL 2018"
+            },
+            {
+              "name": "Patrick Roberts",
+              "position": "midfielder",
+              "number": "N/A",
+              "onLoan": true,
+              "nationality": "England",
+              "joined": "19 JULY 2015"
+            },
+            {
+              "name": "Rodrigo",
+              "position": "midfielder",
+              "number": "16",
+              "onLoan": false,
+              "nationality": "Spain",
+              "joined": "4 JULY 2019"
+            },
+            {
+              "name": "Kevin De Bruyne",
+              "position": "midfielder",
+              "number": "17",
+              "onLoan": false,
+              "nationality": "Belgium",
+              "joined": "30 AUGUST 2015"
+            },
+            {
+              "name": "Fernandinho",
+              "position": "midfielder",
+              "number": "25",
+              "onLoan": false,
+              "nationality": "Brazilian",
+              "joined": "1 JULY 2013"
+            },
+            {
+              "name": "Bernardo Silva",
+              "position": "midfielder",
+              "number": "20",
+              "onLoan": false,
+              "nationality": "Portugal",
+              "joined": "1 JULY 2017"
+            },
+            {
+              "name": "Raheem Sterling",
+              "position": "forward",
+              "number": "7",
+              "onLoan": false,
+              "nationality": "England",
+              "joined": "14 JULY 2015"
+            },
+            {
+              "name": "Gabriel Jesus",
+              "position": "forward",
+              "number": "9",
+              "onLoan": false,
+              "nationality": "Brazilian",
+              "joined": "3 AUGUST 2016"
+            },
+            {
+              "name": "Ferran Torres",
+              "position": "forward",
+              "number": "21",
+              "onLoan": false,
+              "nationality": "Spain",
+              "joined": "4 AUGUST 2020"
+            },
+            {
+              "name": "Riyah Mahrez",
+              "position": "forward",
+              "number": "26",
+              "onLoan": false,
+              "nationality": "Algeria",
+              "joined": "10 JULY 2018"
+            }
+          ],
           "stadium": "Etihad Stadium"
         },
         {
