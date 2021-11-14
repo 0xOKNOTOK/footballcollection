@@ -29,11 +29,14 @@ exports.getTeamsByLeague = (req, res) => {
 // @desc      get single team by name/id.
 // @route     GET /api/teams/league/:id
 // @access    Public
-exports.getSingleTeamById = (req, res) => {
+exports.getSingleTeamById = (req, res, next) => {
   const reqId = Number(req.params.id)
   const allPremierLeagueClubs = allClubs.data[0].PremierLeague
-  console.log(typeof req.params.id)
   const foundTeam = allPremierLeagueClubs.find(club => club.id === reqId)
-
+  if (!foundTeam) {
+    return next(
+      new CustomErrorResponse(`Team not found with id of ${req.params.id}`, 404)
+    )
+  }
   res.status(200).json({ foundTeam })
 }
