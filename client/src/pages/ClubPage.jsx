@@ -47,6 +47,7 @@ const ClubPage = () => {
                 .filter(player => player.position === 'Goalkeeper')
                 .map(player => (
                   <TeamPlayer
+                    photo={player.photo}
                     name={player.name}
                     position={player.position}
                     number={player.number}
