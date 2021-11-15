@@ -7,12 +7,12 @@ const Navigation = ({ handleSearchClick }) => {
   const [collapsed, setCollapsed] = useState(false)
 
   return (
-    <nav class=' bg-gray-200 shadow dark:bg-gray-800'>
-      <div class='container px-5 py-6 mx-auto md:flex'>
-        <div class='flex items-center justify-between'>
+    <nav className=' bg-gray-200 shadow dark:bg-gray-800'>
+      <div className='container px-5 py-6 mx-auto md:flex'>
+        <div className='flex items-center justify-between'>
           <div>
             <a
-              class='text-2xl font-bold text-gray-800  dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300'
+              className='text-2xl font-bold text-gray-800  dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300'
               href='/'
             >
               <svg
@@ -69,14 +69,14 @@ const Navigation = ({ handleSearchClick }) => {
             </a>
           </div>
 
-          <div class='flex md:hidden'>
+          <div className='flex md:hidden'>
             <button
               type='button'
               onClick={() => setCollapsed(collapsed ? false : 'collapsed')}
-              class=' text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400'
+              className=' text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400'
               aria-label='toggle menu'
             >
-              <svg viewBox='0 0 24 24' class='w-6 h-6 fill-current'>
+              <svg viewBox='0 0 24 24' className='w-6 h-6 fill-current'>
                 <path
                   fill-rule='evenodd'
                   d='M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z'
@@ -86,39 +86,39 @@ const Navigation = ({ handleSearchClick }) => {
           </div>
         </div>
 
-        <div class='w-full md:flex md:items-center md:justify-between'>
-          <div class='flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0'>
+        <div className='w-full md:flex md:items-center md:justify-between'>
+          <div className='flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0'>
             <a
               href='/fixtures'
-              class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
+              className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
             >
               Fixtures
             </a>
 
             <a
               href='/teams'
-              class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
+              className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
             >
               Teams
             </a>
             <a
               href='/stats'
-              class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
+              className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
             >
               Statistics
             </a>
             <a
               href='/contact'
-              class='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
+              className='px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-700 hover:text-gray-100 md:mx-2'
             >
               Contact
             </a>
           </div>
 
-          <div class='relative'>
-            <span class='absolute inset-y-0 left-0 flex items-center pl-3'>
+          <div className='relative'>
+            <span className='absolute inset-y-0 left-0 flex items-center pl-3'>
               <svg
-                class='w-5 h-5 text-gray-400'
+                className='w-5 h-5 text-gray-400'
                 viewBox='0 0 24 24'
                 fill='none'
               >
@@ -135,7 +135,7 @@ const Navigation = ({ handleSearchClick }) => {
             <input
               onChange={handleSearchClick}
               type='text'
-              class='w-full py-2 pl-10 pr-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-grey-500 dark:focus:border-red-500 focus:outline-none focus:ring'
+              className='w-full py-2 pl-10 pr-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-grey-500 dark:focus:border-red-500 focus:outline-none focus:ring'
               placeholder='Search'
             />
           </div>

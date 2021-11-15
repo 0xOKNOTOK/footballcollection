@@ -11,29 +11,29 @@ const ClubPage = () => {
   console.log(clubData)
   return (
     <MainComponent>
-      <section class='text-gray-600  dark:text-gray-300 bg-white dark:bg-gray-900 body-font'>
-        <div class='container  px-5 py-24 mx-auto'>
-          <div class='flex flex-col text-center w-full mb-20'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
+      <section className='text-gray-600  dark:text-gray-300 bg-white dark:bg-gray-900 body-font'>
+        <div className='container  px-5 py-24 mx-auto'>
+          <div className='flex flex-col text-center w-full mb-20'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
               {clubData.name}
-              <p class='text-sm sm:text-xl text-blue-300 inline'>
+              <p className='text-sm sm:text-xl text-blue-300 inline'>
                 {' '}
                 {clubData.abbreviation}
               </p>
             </h1>
-            <p class='lg:w-2/3 mx-auto leading-relaxed text-base'>
+            <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
               Formed in 1894 Manchester City Football Club played at Maine Road
               until 2003 when they moved to their new home The City of
               Manchester Stadium.
             </p>
             <ClubInformation />
           </div>
-          <div class='mt-8 mb-8'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
+          <div className='mt-8 mb-8'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
               Goalkeepers
             </h1>
           </div>
-          <div class='flex flex-wrap -m-2'>
+          <div className='flex flex-wrap -m-2'>
             {!clubData.players ? (
               <h1>Loading...</h1>
             ) : (
@@ -49,12 +49,12 @@ const ClubPage = () => {
                 ))
             )}
           </div>
-          <div class='mt-8 mb-8'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
+          <div className='mt-8 mb-8'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
               Defenders
             </h1>
           </div>
-          <div class='flex flex-wrap -m-2'>
+          <div className='flex flex-wrap -m-2'>
             {!clubData.players ? (
               <h1>Loading...</h1>
             ) : (
@@ -70,12 +70,12 @@ const ClubPage = () => {
                 ))
             )}
           </div>
-          <div class='mt-8 mb-8'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
+          <div className='mt-8 mb-8'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
               Midfielders
             </h1>
           </div>
-          <div class='flex flex-wrap -m-2'>
+          <div className='flex flex-wrap -m-2'>
             {!clubData.players ? (
               <h1>Loading...</h1>
             ) : (
@@ -91,12 +91,12 @@ const ClubPage = () => {
                 ))
             )}
           </div>
-          <div class='mt-8 mb-8'>
-            <h1 class='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
+          <div className='mt-8 mb-8'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
               Forwards
             </h1>
           </div>
-          <div class='flex flex-wrap -m-2'>
+          <div className='flex flex-wrap -m-2'>
             {!clubData.players ? (
               <h1>Loading...</h1>
             ) : (
