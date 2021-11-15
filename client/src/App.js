@@ -8,6 +8,7 @@ import StatsPage from './pages/StatsPage'
 import FixturesPage from './pages/FixturesPage'
 import TeamsPage from './pages/TeamsPage'
 import ClubPage from './pages/ClubPage'
+import TeamsContainer from './components/TeamsContainer'
 
 const App = () => {
   const [searchBar, setSearchBar] = useState('')
@@ -19,16 +20,18 @@ const App = () => {
   return (
     <div>
       <Navigation handleSearchChange={handleSearchChange} />
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/stats' element={<StatsPage />} />
-          <Route path='/fixtures' element={<FixturesPage />} />
-          <Route path='/teams' element={<TeamsPage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/clubpage' element={<ClubPage />} />
-        </Routes>
-      </BrowserRouter>
+      <TeamsContainer>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<LandingPage />} />
+            <Route path='/stats' element={<StatsPage />} />
+            <Route path='/fixtures' element={<FixturesPage />} />
+            <Route path='/teams' element={<TeamsPage />} />
+            <Route path='/contact' element={<ContactPage />} />
+            <Route path='/clubpage' element={<ClubPage />} />
+          </Routes>
+        </BrowserRouter>
+      </TeamsContainer>
     </div>
   )
 }
