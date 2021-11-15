@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 const getInitialTheme = () => {
   if (typeof window !== 'undefined' && window.localStorage) {
     const storedPrefs = window.localStorage.getItem('color-theme')
@@ -14,7 +14,7 @@ const getInitialTheme = () => {
 }
 export const ThemeContext = React.createContext()
 export const ThemeProvider = ({ initialTheme, children }) => {
-  const [theme, setTheme] = React.useState(getInitialTheme)
+  const [theme, setTheme] = useState(getInitialTheme)
   const rawSetTheme = rawTheme => {
     const root = window.document.documentElement
     const isDark = rawTheme === 'dark'
@@ -25,7 +25,7 @@ export const ThemeProvider = ({ initialTheme, children }) => {
   if (initialTheme) {
     rawSetTheme(initialTheme)
   }
-  React.useEffect(() => {
+  useEffect(() => {
     rawSetTheme(theme)
   }, [theme])
   return (
