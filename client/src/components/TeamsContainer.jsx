@@ -27,7 +27,7 @@ const TeamsContainer = props => {
   } else {
     return (
       <div>
-        <TeamsProvider>{props.children}</TeamsProvider>
+        <TeamsProvider value={clubData}>{props.children}</TeamsProvider>
       </div>
     )
   }
