@@ -7,7 +7,7 @@ const TeamsContainer = props => {
   const [error, setError] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
   useEffect(() => {
-    fetch('/api/teams/league/13')
+    fetch('/api/teams/')
       .then(res => res.json())
       .then(
         result => {

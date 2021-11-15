@@ -7,8 +7,15 @@ import TeamPlayer from '../components/Club/TeamPlayer'
 import TeamsContext from '../hooks/dataContext'
 
 const ClubPage = () => {
+  const [team, setTeam] = useState({})
+
   const clubData = useContext(TeamsContext)
   console.log(clubData)
+
+  useEffect(() => {
+    setTeam(clubData.data[0].PremierLeague[12])
+  }, [])
+
   return (
     <MainComponent>
       <section className='text-gray-600  dark:text-gray-300 bg-white dark:bg-gray-900 body-font'>
@@ -18,7 +25,7 @@ const ClubPage = () => {
               {clubData.name}
               <p className='text-sm sm:text-xl text-blue-300 inline'>
                 {' '}
-                {clubData.abbreviation}
+                {team.abbreviation}
               </p>
             </h1>
             <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
@@ -34,10 +41,10 @@ const ClubPage = () => {
             </h1>
           </div>
           <div className='flex flex-wrap -m-2'>
-            {!clubData.players ? (
+            {!team.players ? (
               <h1>Loading...</h1>
             ) : (
-              clubData.players
+              team.players
                 .filter(player => player.position === 'Goalkeeper')
                 .map(player => (
                   <TeamPlayer
@@ -55,10 +62,10 @@ const ClubPage = () => {
             </h1>
           </div>
           <div className='flex flex-wrap -m-2'>
-            {!clubData.players ? (
+            {!team.players ? (
               <h1>Loading...</h1>
             ) : (
-              clubData.players
+              team.players
                 .filter(player => player.position === 'Defender')
                 .map(player => (
                   <TeamPlayer
@@ -76,10 +83,10 @@ const ClubPage = () => {
             </h1>
           </div>
           <div className='flex flex-wrap -m-2'>
-            {!clubData.players ? (
+            {!team.players ? (
               <h1>Loading...</h1>
             ) : (
-              clubData.players
+              team.players
                 .filter(player => player.position === 'Midfielder')
                 .map(player => (
                   <TeamPlayer
@@ -97,10 +104,10 @@ const ClubPage = () => {
             </h1>
           </div>
           <div className='flex flex-wrap -m-2'>
-            {!clubData.players ? (
+            {!team.players ? (
               <h1>Loading...</h1>
             ) : (
-              clubData.players
+              team.players
                 .filter(player => player.position === 'Forward')
                 .map(player => (
                   <TeamPlayer
