@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { TeamsProvider } from '../hooks/dataContext'
-import axios from 'axios'
 
 const TeamsContainer = props => {
   const [clubData, setClubData] = useState({})
