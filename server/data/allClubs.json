@@ -123,6 +123,7 @@
           "players": [
             {
               "name": "Ederson",
+              "photo": "/cdn/images/players/ederson.png",
               "position": "Goalkeeper",
               "number": "31",
               "onLoan": false,
@@ -131,6 +132,7 @@
             },
             {
               "name": "Zack Steffen",
+              "photo": "/cdn/images/players/zack_steffen.png",
               "position": "Goalkeeper",
               "number": "13",
               "onLoan": false,
@@ -139,6 +141,7 @@
             },
             {
               "name": "Scott Carson",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Goalkeeper",
               "number": "33",
               "onLoan": false,
@@ -147,6 +150,7 @@
             },
             {
               "name": "Arijanet Muric",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Goalkeeper",
               "number": "49",
               "onLoan": true,
@@ -155,6 +159,7 @@
             },
             {
               "name": "Kyle Walker",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "2",
               "onLoan": false,
@@ -163,6 +168,7 @@
             },
             {
               "name": "Ruben Dias",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "3",
               "onLoan": false,
@@ -171,6 +177,7 @@
             },
             {
               "name": "Aymeric Laporte",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "14",
               "onLoan": false,
@@ -179,6 +186,7 @@
             },
             {
               "name": "John Stones",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "5",
               "onLoan": false,
@@ -187,6 +195,7 @@
             },
             {
               "name": "Nathan Ake",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "6",
               "onLoan": false,
@@ -195,6 +204,7 @@
             },
             {
               "name": "Joao Cancelo",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "27",
               "onLoan": false,
@@ -203,6 +213,7 @@
             },
             {
               "name": "Oleksandr Zinchenko",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "11",
               "onLoan": false,
@@ -211,6 +222,7 @@
             },
             {
               "name": "Phillipe Sandler",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Defender",
               "number": "34",
               "onLoan": true,
@@ -219,6 +231,7 @@
             },
             {
               "name": "Ilkay Gundogan",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "8",
               "onLoan": false,
@@ -227,6 +240,7 @@
             },
             {
               "name": "Jack Grealish",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "10",
               "onLoan": false,
@@ -235,6 +249,7 @@
             },
             {
               "name": "Phil Foden",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "47",
               "onLoan": false,
@@ -243,6 +258,7 @@
             },
             {
               "name": "Cole Palmer",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "80",
               "onLoan": false,
@@ -251,6 +267,7 @@
             },
             {
               "name": "Patrick Roberts",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "N/A",
               "onLoan": true,
@@ -259,6 +276,7 @@
             },
             {
               "name": "Rodrigo",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "16",
               "onLoan": false,
@@ -267,6 +285,7 @@
             },
             {
               "name": "Kevin De Bruyne",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "17",
               "onLoan": false,
@@ -275,6 +294,7 @@
             },
             {
               "name": "Fernandinho",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "25",
               "onLoan": false,
@@ -283,6 +303,7 @@
             },
             {
               "name": "Bernardo Silva",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Midfielder",
               "number": "20",
               "onLoan": false,
@@ -291,6 +312,7 @@
             },
             {
               "name": "Raheem Sterling",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Forward",
               "number": "7",
               "onLoan": false,
@@ -299,6 +321,7 @@
             },
             {
               "name": "Gabriel Jesus",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Forward",
               "number": "9",
               "onLoan": false,
@@ -307,6 +330,7 @@
             },
             {
               "name": "Ferran Torres",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Forward",
               "number": "21",
               "onLoan": false,
@@ -315,6 +339,7 @@
             },
             {
               "name": "Riyah Mahrez",
+              "photo": "/cdn/images/players/kevin_de_bruyne.png",
               "position": "Forward",
               "number": "26",
               "onLoan": false,
