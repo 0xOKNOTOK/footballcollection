@@ -69,6 +69,7 @@ const ClubPage = () => {
                 .filter(player => player.position === 'Defender')
                 .map(player => (
                   <TeamPlayer
+                    photo={player.photo}
                     name={player.name}
                     position={player.position}
                     number={player.number}
@@ -90,6 +91,7 @@ const ClubPage = () => {
                 .filter(player => player.position === 'Midfielder')
                 .map(player => (
                   <TeamPlayer
+                    photo={player.photo}
                     name={player.name}
                     position={player.position}
                     number={player.number}
@@ -111,6 +113,7 @@ const ClubPage = () => {
                 .filter(player => player.position === 'Forward')
                 .map(player => (
                   <TeamPlayer
+                    photo={player.photo}
                     name={player.name}
                     position={player.position}
                     number={player.number}
