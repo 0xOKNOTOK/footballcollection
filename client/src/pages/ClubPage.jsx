@@ -10,11 +10,10 @@ const ClubPage = () => {
   const [team, setTeam] = useState({})
 
   const clubData = useContext(TeamsContext)
-  console.log(clubData)
 
   useEffect(() => {
     setTeam(clubData.data[0].PremierLeague[12])
-  }, [])
+  }, [clubData])
 
   return (
     <MainComponent>
@@ -22,7 +21,7 @@ const ClubPage = () => {
         <div className='container  px-5 py-24 mx-auto'>
           <div className='flex flex-col text-center w-full mb-20'>
             <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800 dark:text-gray-100'>
-              {clubData.name}
+              {team.name}
               <p className='text-sm sm:text-xl text-blue-300 inline'>
                 {' '}
                 {team.abbreviation}
