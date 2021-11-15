@@ -112,7 +112,7 @@
         },
         {
           "id": 13,
-          "name": "Manchester City",
+          "name": "Manchester City Football Club",
           "abbreviation": "MCI",
           "clubCrest": "",
           "manager": {
@@ -123,7 +123,7 @@
           "players": [
             {
               "name": "Ederson",
-              "position": "goalkeeper",
+              "position": "Goalkeeper",
               "number": "31",
               "onLoan": false,
               "nationality": "Brazilian",
@@ -131,7 +131,7 @@
             },
             {
               "name": "Zack Steffen",
-              "position": "goalkeeper",
+              "position": "Goalkeeper",
               "number": "13",
               "onLoan": false,
               "nationality": "United States",
@@ -139,15 +139,15 @@
             },
             {
               "name": "Scott Carson",
-              "position": "goalkeeper",
+              "position": "Goalkeeper",
               "number": "33",
               "onLoan": false,
               "nationality": "England",
               "joined": "8 AUGUST 2019"
             },
             {
-              "name": "ARIJANET MURIC",
-              "position": "goalkeeper",
+              "name": "Arijanet Muric",
+              "position": "Goalkeeper",
               "number": "49",
               "onLoan": true,
               "nationality": "Kosovo",
@@ -155,7 +155,7 @@
             },
             {
               "name": "Kyle Walker",
-              "position": "defender",
+              "position": "Defender",
               "number": "2",
               "onLoan": false,
               "nationality": "England",
@@ -163,7 +163,7 @@
             },
             {
               "name": "Ruben Dias",
-              "position": "defender",
+              "position": "Defender",
               "number": "3",
               "onLoan": false,
               "nationality": "Portual",
@@ -171,7 +171,7 @@
             },
             {
               "name": "Aymeric Laporte",
-              "position": "defender",
+              "position": "Defender",
               "number": "14",
               "onLoan": false,
               "nationality": "Spain",
@@ -179,7 +179,7 @@
             },
             {
               "name": "John Stones",
-              "position": "defender",
+              "position": "Defender",
               "number": "5",
               "onLoan": false,
               "nationality": "England",
@@ -187,7 +187,7 @@
             },
             {
               "name": "Nathan Ake",
-              "position": "defender",
+              "position": "Defender",
               "number": "6",
               "onLoan": false,
               "nationality": "Netherlands",
@@ -195,7 +195,7 @@
             },
             {
               "name": "Joao Cancelo",
-              "position": "defender",
+              "position": "Defender",
               "number": "27",
               "onLoan": false,
               "nationality": "Portugal",
@@ -203,7 +203,7 @@
             },
             {
               "name": "Oleksandr Zinchenko",
-              "position": "defender",
+              "position": "Defender",
               "number": "11",
               "onLoan": false,
               "nationality": "Ukraine",
@@ -211,7 +211,7 @@
             },
             {
               "name": "Phillipe Sandler",
-              "position": "defender",
+              "position": "Defender",
               "number": "34",
               "onLoan": true,
               "nationality": "Dutch",
@@ -219,7 +219,7 @@
             },
             {
               "name": "Ilkay Gundogan",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "8",
               "onLoan": false,
               "nationality": "Germany",
@@ -227,7 +227,7 @@
             },
             {
               "name": "Jack Grealish",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "10",
               "onLoan": false,
               "nationality": "England",
@@ -235,7 +235,7 @@
             },
             {
               "name": "Phil Foden",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "47",
               "onLoan": false,
               "nationality": "England",
@@ -243,7 +243,7 @@
             },
             {
               "name": "Cole Palmer",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "80",
               "onLoan": false,
               "nationality": "England",
@@ -251,7 +251,7 @@
             },
             {
               "name": "Patrick Roberts",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "N/A",
               "onLoan": true,
               "nationality": "England",
@@ -259,7 +259,7 @@
             },
             {
               "name": "Rodrigo",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "16",
               "onLoan": false,
               "nationality": "Spain",
@@ -267,7 +267,7 @@
             },
             {
               "name": "Kevin De Bruyne",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "17",
               "onLoan": false,
               "nationality": "Belgium",
@@ -275,7 +275,7 @@
             },
             {
               "name": "Fernandinho",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "25",
               "onLoan": false,
               "nationality": "Brazilian",
@@ -283,7 +283,7 @@
             },
             {
               "name": "Bernardo Silva",
-              "position": "midfielder",
+              "position": "Midfielder",
               "number": "20",
               "onLoan": false,
               "nationality": "Portugal",
@@ -291,7 +291,7 @@
             },
             {
               "name": "Raheem Sterling",
-              "position": "forward",
+              "position": "Forward",
               "number": "7",
               "onLoan": false,
               "nationality": "England",
@@ -299,7 +299,7 @@
             },
             {
               "name": "Gabriel Jesus",
-              "position": "forward",
+              "position": "Forward",
               "number": "9",
               "onLoan": false,
               "nationality": "Brazilian",
@@ -307,7 +307,7 @@
             },
             {
               "name": "Ferran Torres",
-              "position": "forward",
+              "position": "Forward",
               "number": "21",
               "onLoan": false,
               "nationality": "Spain",
@@ -315,7 +315,7 @@
             },
             {
               "name": "Riyah Mahrez",
-              "position": "forward",
+              "position": "Forward",
               "number": "26",
               "onLoan": false,
               "nationality": "Algeria",
