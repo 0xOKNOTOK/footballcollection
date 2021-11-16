@@ -11,7 +11,7 @@ const ClubPage = () => {
   const clubData = useContext(TeamsContext)
 
   useEffect(() => {
-    setTeam(clubData.data[0].PremierLeague[12])
+    setTeam(clubData.data.leagues.PremierLeague[12])
   }, [clubData])
 
   return (

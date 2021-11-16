@@ -1,6 +1,6 @@
 {
-  "data": [
-    {
+  "data": {
+    "leagues": {
       "PremierLeague": [
         {
           "id": 1,
@@ -412,9 +412,7 @@
           "players": [],
           "stadium": "Molineux Stadium"
         }
-      ]
-    },
-    {
+      ],
       "EFLChampionship": [
         {
           "id": 21,
@@ -634,5 +632,5 @@
         }
       ]
     }
-  ]
+  }
 }
