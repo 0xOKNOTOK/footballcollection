@@ -43,7 +43,7 @@ const TeamsPage = () => {
                     .map(team => {
                       return (
                         <TeamsPosition position={team.position}>
-                          <TeamsCard name={team.name} badge={team.badge} />
+                          <TeamsCard name={team.name} badge={team.clubCrest} />
                         </TeamsPosition>
                       )
                     })

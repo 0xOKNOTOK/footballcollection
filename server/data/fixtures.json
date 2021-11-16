@@ -10,7 +10,7 @@
               "position": 19,
               "name": "Newcastle United",
               "abbreviation": "NEW",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/newcastle_united.png",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -29,7 +29,7 @@
               "position": 5,
               "name": "Arsenal FC",
               "abbreviation": "ARS",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/arsenal.png",
               "points": 20,
               "form": "WWWDD",
               "all": {
@@ -48,7 +48,7 @@
               "position": 16,
               "name": "Aston Villa",
               "abbreviation": "VIL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/aston_villa.png",
               "points": 10,
               "form": "LLLLL",
               "all": {
@@ -67,7 +67,7 @@
               "position": 14,
               "name": "Brentford FC",
               "abbreviation": "BFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brentford.png",
               "points": 12,
               "form": "LLLLW",
               "all": {
@@ -86,7 +86,7 @@
               "position": 7,
               "name": "Brighton & Hove Albion",
               "abbreviation": "BHA",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brighton.png",
               "points": 17,
               "form": "DDLDD",
               "all": {
@@ -105,7 +105,7 @@
               "position": 18,
               "name": "Burnley FC",
               "abbreviation": "BUR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/burnley.png",
               "points": 8,
               "form": "DWDLD",
               "all": {
@@ -124,7 +124,7 @@
               "position": 1,
               "name": "Chelsea FC",
               "abbreviation": "CFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/chelsea.png",
               "points": 26,
               "form": "DWWWW",
               "all": {
@@ -143,7 +143,7 @@
               "position": 10,
               "name": "Crystal Palace",
               "abbreviation": "PAL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/crystal_palace.png",
               "points": 15,
               "form": "WWDDD",
               "all": {
@@ -162,7 +162,7 @@
               "position": 11,
               "name": "Everton FC",
               "abbreviation": "EVE",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/everton.png",
               "points": 15,
               "form": "DLLLD",
               "all": {
@@ -181,7 +181,7 @@
               "position": 15,
               "name": "Leeds United",
               "abbreviation": "LUFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leeds_united.png",
               "points": 11,
               "form": "DWDLW",
               "all": {
@@ -200,7 +200,7 @@
               "position": 12,
               "name": "Leicester City",
               "abbreviation": "LCFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leicester_city.png",
               "points": 15,
               "form": "DLWWD",
               "all": {
@@ -219,7 +219,7 @@
               "position": 4,
               "name": "Liverpool FC",
               "abbreviation": "LFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/liverpool.png",
               "points": 22,
               "form": "LDWWD",
               "all": {
@@ -238,7 +238,7 @@
               "position": 2,
               "name": "Manchester City FC",
               "abbreviation": "MCI",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_city.png",
               "points": 23,
               "form": "WLWWD",
               "all": {
@@ -257,7 +257,7 @@
               "position": 6,
               "name": "Manchester United",
               "abbreviation": "MNU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_united.png",
               "points": 17,
               "form": "LWLLD",
               "all": {
@@ -276,7 +276,7 @@
               "position": 20,
               "name": "Norwich City",
               "abbreviation": "NOR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/norwich_city.png",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -295,7 +295,7 @@
               "position": 13,
               "name": "Southampton FC",
               "abbreviation": "SOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/southampton.png",
               "points": 14,
               "form": "WWDWL",
               "all": {
@@ -314,7 +314,7 @@
               "position": 9,
               "name": "Tottenham Hotspur",
               "abbreviation": "TOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/tottenham_hotspur.png",
               "points": 16,
               "form": "DLLWW",
               "all": {
@@ -333,7 +333,7 @@
               "position": 17,
               "name": "Watford FC",
               "abbreviation": "WAT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/watford.png",
               "points": 10,
               "form": "LLWLL",
               "all": {
@@ -352,7 +352,7 @@
               "position": 3,
               "name": "West Ham United",
               "abbreviation": "WHU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/west_ham.png",
               "points": 23,
               "form": "WWWWL",
               "all": {
@@ -371,7 +371,7 @@
               "position": 8,
               "name": "Wolverhampton Wanderers",
               "abbreviation": "WOL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/wolves.png",
               "points": 16,
               "form": "LWDWW",
               "all": {
