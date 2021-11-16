@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { TeamsProvider } from '../hooks/clubDataContext'
+import { FixturesProvider } from '../hooks/fixtureDataContext'
 
-const TeamsContainer = props => {
+const FixturesContainer = props => {
   const [fixturesData, setFixturesData] = useState({})
   const [error, setError] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
@@ -28,10 +28,12 @@ const TeamsContainer = props => {
   } else {
     return (
       <div>
-        <TeamsProvider value={fixturesData}>{props.children}</TeamsProvider>
+        <FixturesProvider value={fixturesData}>
+          {props.children}
+        </FixturesProvider>
       </div>
     )
   }
 }
 
-export default TeamsContainer
+export default FixturesContainer

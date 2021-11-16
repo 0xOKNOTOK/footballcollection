@@ -5,21 +5,24 @@ import MainComponent from '../components/Main'
 
 import TeamsCard from '../components/Teams/TeamsCard'
 import TeamsPosition from '../components/Teams/TeamsPosition'
-import TeamsContext from '../hooks/clubDataContext'
+import FixtureContext from '../hooks/fixtureDataContext'
 
 const TeamsPage = () => {
-  const [teams, setTeams] = useState([])
   const [filter, setFilter] = useState('')
+  const [table, setTable] = useState({})
 
-  const clubData = useContext(TeamsContext)
+  const fixturesData = useContext(FixtureContext)
+  console.log(fixturesData)
 
   useEffect(() => {
-    fetch('/api/league/fixtures/2021')
-  }, [clubData, teams])
+    setTable(fixturesData)
+  }, [fixturesData])
 
   const handleFilterChange = e => {
     e.preventDefault()
     setFilter(e.target.value)
+    setTable(fixturesData)
+    console.log(table)
   }
 
   return (
@@ -27,11 +30,6 @@ const TeamsPage = () => {
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
           <Dropdown handleFilterChange={handleFilterChange} />
-          {teams.map((team, index) => (
-            <TeamsPosition key={index} position={index + 1}>
-              <TeamsCard name={team.name} badge={team.badge} />
-            </TeamsPosition>
-          ))}
         </div>
       </section>
       <Footer />

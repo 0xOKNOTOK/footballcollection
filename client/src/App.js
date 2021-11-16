@@ -6,7 +6,7 @@ import LandingPage from './pages/LandingPage'
 import ContactPage from './pages/ContactPage'
 import StatsPage from './pages/StatsPage'
 import FixturesPage from './pages/FixturesPage'
-import TeamsPage from './pages/TeamsPage'
+import TablesPage from './pages/TablesPage'
 import ClubPage from './pages/ClubPage'
 import TeamsContainer from './components/TeamsContainer'
 import FixturesContainer from './components/FixturesContainer'
@@ -29,7 +29,7 @@ const App = () => {
               <Route path='/' element={<LandingPage />} />
               <Route path='/stats' element={<StatsPage />} />
               <Route path='/fixtures' element={<FixturesPage />} />
-              <Route path='/teams' element={<TeamsPage />} />
+              <Route path='/tables' element={<TablesPage />} />
               <Route path='/contact' element={<ContactPage />} />
               <Route path='/clubpage' element={<ClubPage />} />
             </Routes>
