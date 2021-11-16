@@ -12,16 +12,14 @@ const TeamsPage = () => {
   const [table, setTable] = useState({})
 
   const fixturesData = useContext(FixtureContext)
-  console.log(fixturesData)
 
   useEffect(() => {
-    setTable(fixturesData)
+    setTable(fixturesData.data[0].PremierLeague[0])
   }, [fixturesData])
 
   const handleFilterChange = e => {
     e.preventDefault()
     setFilter(e.target.value)
-    setTable(fixturesData)
     console.log(table)
   }
 
@@ -30,6 +28,12 @@ const TeamsPage = () => {
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
           <Dropdown handleFilterChange={handleFilterChange} />
+
+          {table.map((team, index) => (
+            <TeamsPosition key={index} position={index + 1}>
+              <TeamsCard name={team.name} badge={team.badge} />
+            </TeamsPosition>
+          ))}
         </div>
       </section>
       <Footer />
