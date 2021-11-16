@@ -14,8 +14,7 @@ const TeamsPage = () => {
   const clubData = useContext(TeamsContext)
 
   useEffect(() => {
-    setTeams(clubData.data[0].PremierLeague)
-    console.log(teams)
+    fetch('/api/league/fixtures/2021')
   }, [clubData, teams])
 
   const handleFilterChange = e => {
