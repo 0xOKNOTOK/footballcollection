@@ -9,12 +9,12 @@ import FixtureContext from '../hooks/fixtureDataContext'
 
 const TeamsPage = () => {
   const [filter, setFilter] = useState('')
-  const [table, setTable] = useState({})
+  const [table, setTable] = useState([])
 
   const fixturesData = useContext(FixtureContext)
 
   useEffect(() => {
-    setTable(fixturesData.data[0].PremierLeague[0])
+    setTable(fixturesData.data.leagues.PremierLeague.twentyone)
   }, [fixturesData])
 
   const handleFilterChange = e => {
