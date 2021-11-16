@@ -1,1922 +1,1933 @@
 {
   "data": {
     "leagues": {
-      "PremierLeague": {
-        "twentytwo": [
-          {
-            "id": 1,
-            "position": 19,
-            "name": "Newcastle United",
-            "abbreviation": "NEW",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 5,
-              "goals": {
-                "for": 12,
-                "against": 24
-              }
-            }
-          },
-          {
-            "id": 2,
-            "position": 5,
-            "name": "Arsenal FC",
-            "abbreviation": "ARS",
-            "clubCrest": "",
-            "points": 20,
-            "form": "WWWDD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 2,
-              "lose": 3,
-              "goals": {
-                "for": 13,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 3,
-            "position": 16,
-            "name": "Aston Villa",
-            "abbreviation": "VIL",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLLLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 14,
-                "against": 20
-              }
-            }
-          },
-          {
-            "id": 4,
-            "position": 14,
-            "name": "Brentford FC",
-            "abbreviation": "BFC",
-            "clubCrest": "",
-            "points": 12,
-            "form": "LLLLW",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 3,
-              "lose": 5,
-              "goals": {
-                "for": 13,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 5,
-            "position": 7,
-            "name": "Brighton & Hove Albion",
-            "abbreviation": "BHA",
-            "clubCrest": "",
-            "points": 17,
-            "form": "DDLDD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 5,
-              "lose": 2,
-              "goals": {
-                "for": 12,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 6,
-            "position": 18,
-            "name": "Burnley FC",
-            "abbreviation": "BUR",
-            "clubCrest": "",
-            "points": 8,
-            "form": "DWDLD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 5,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 7,
-            "position": 1,
-            "name": "Chelsea FC",
-            "abbreviation": "CFC",
-            "clubCrest": "",
-            "points": 26,
-            "form": "DWWWW",
-            "all": {
-              "played": 11,
-              "win": 8,
-              "draw": 2,
-              "lose": 1,
-              "goals": {
-                "for": 27,
-                "against": 4
-              }
-            }
-          },
-          {
-            "id": 8,
-            "position": 10,
-            "name": "Crystal Palace",
-            "abbreviation": "PAL",
-            "clubCrest": "",
-            "points": 15,
-            "form": "WWDDD",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 6,
-              "lose": 2,
-              "goals": {
-                "for": 15,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 9,
-            "position": 11,
-            "name": "Everton FC",
-            "abbreviation": "EVE",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLLLD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 10,
-            "position": 15,
-            "name": "Leeds United",
-            "abbreviation": "LUFC",
-            "clubCrest": "",
-            "points": 11,
-            "form": "DWDLW",
-            "all": {
-              "played": 11,
-              "win": 2,
-              "draw": 5,
-              "lose": 4,
-              "goals": {
-                "for": 11,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 11,
-            "position": 12,
-            "name": "Leicester City",
-            "abbreviation": "LCFC",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLWWD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 12,
-            "position": 4,
-            "name": "Liverpool FC",
-            "abbreviation": "LFC",
-            "clubCrest": "",
-            "points": 22,
-            "form": "LDWWD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 4,
-              "lose": 1,
-              "goals": {
-                "for": 31,
-                "against": 11
-              }
-            }
-          },
-          {
-            "id": 13,
-            "position": 2,
-            "name": "Manchester City Football Club",
-            "abbreviation": "MCI",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WLWWD",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 22,
-                "against": 6
-              }
-            }
-          },
-          {
-            "id": 14,
-            "position": 6,
-            "name": "Manchester United",
-            "abbreviation": "MNU",
-            "clubCrest": "",
-            "points": 17,
-            "form": "LWLLD",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 2,
-              "lose": 4,
-              "goals": {
-                "for": 19,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 15,
-            "position": 20,
-            "name": "Norwich City",
-            "abbreviation": "NOR",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 8,
-              "goals": {
-                "for": 5,
-                "against": 26
-              }
-            }
-          },
-          {
-            "id": 16,
-            "position": 13,
-            "name": "Southampton FC",
-            "abbreviation": "SOT",
-            "clubCrest": "",
-            "points": 14,
-            "form": "WWDWL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 5,
-              "lose": 3,
-              "goals": {
-                "for": 10,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 17,
-            "position": 9,
-            "name": "Tottenham Hotspur",
-            "abbreviation": "TOT",
-            "clubCrest": "",
-            "points": 16,
-            "form": "DLLWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 9,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 18,
-            "position": 17,
-            "name": "Watford FC",
-            "abbreviation": "WAT",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLWLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 12,
-                "against": 19
-              }
-            }
-          },
-          {
-            "id": 19,
-            "position": 3,
-            "name": "West Ham United",
-            "abbreviation": "WHU",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WWWWL",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 23,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 20,
-            "position": 8,
-            "name": "Wolverhampton Wanderers",
-            "abbreviation": "WOL",
-            "clubCrest": "",
-            "points": 16,
-            "form": "LWDWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 12
-              }
-            }
-          }
-        ],
-
-        "twentyone": [
-          {
-            "id": 1,
-            "position": 19,
-            "name": "Newcastle United",
-            "abbreviation": "NEW",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 5,
-              "goals": {
-                "for": 12,
-                "against": 24
-              }
-            }
-          },
-          {
-            "id": 2,
-            "position": 5,
-            "name": "Arsenal FC",
-            "abbreviation": "ARS",
-            "clubCrest": "",
-            "points": 20,
-            "form": "WWWDD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 2,
-              "lose": 3,
-              "goals": {
-                "for": 13,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 3,
-            "position": 16,
-            "name": "Aston Villa",
-            "abbreviation": "VIL",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLLLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 14,
-                "against": 20
-              }
-            }
-          },
-          {
-            "id": 4,
-            "position": 14,
-            "name": "Brentford FC",
-            "abbreviation": "BFC",
-            "clubCrest": "",
-            "points": 12,
-            "form": "LLLLW",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 3,
-              "lose": 5,
-              "goals": {
-                "for": 13,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 5,
-            "position": 7,
-            "name": "Brighton & Hove Albion",
-            "abbreviation": "BHA",
-            "clubCrest": "",
-            "points": 17,
-            "form": "DDLDD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 5,
-              "lose": 2,
-              "goals": {
-                "for": 12,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 6,
-            "position": 18,
-            "name": "Burnley FC",
-            "abbreviation": "BUR",
-            "clubCrest": "",
-            "points": 8,
-            "form": "DWDLD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 5,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 7,
-            "position": 1,
-            "name": "Chelsea FC",
-            "abbreviation": "CFC",
-            "clubCrest": "",
-            "points": 26,
-            "form": "DWWWW",
-            "all": {
-              "played": 11,
-              "win": 8,
-              "draw": 2,
-              "lose": 1,
-              "goals": {
-                "for": 27,
-                "against": 4
-              }
-            }
-          },
-          {
-            "id": 8,
-            "position": 10,
-            "name": "Crystal Palace",
-            "abbreviation": "PAL",
-            "clubCrest": "",
-            "points": 15,
-            "form": "WWDDD",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 6,
-              "lose": 2,
-              "goals": {
-                "for": 15,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 9,
-            "position": 11,
-            "name": "Everton FC",
-            "abbreviation": "EVE",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLLLD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 10,
-            "position": 15,
-            "name": "Leeds United",
-            "abbreviation": "LUFC",
-            "clubCrest": "",
-            "points": 11,
-            "form": "DWDLW",
-            "all": {
-              "played": 11,
-              "win": 2,
-              "draw": 5,
-              "lose": 4,
-              "goals": {
-                "for": 11,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 11,
-            "position": 12,
-            "name": "Leicester City",
-            "abbreviation": "LCFC",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLWWD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 12,
-            "position": 4,
-            "name": "Liverpool FC",
-            "abbreviation": "LFC",
-            "clubCrest": "",
-            "points": 22,
-            "form": "LDWWD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 4,
-              "lose": 1,
-              "goals": {
-                "for": 31,
-                "against": 11
-              }
-            }
-          },
-          {
-            "id": 13,
-            "position": 2,
-            "name": "Manchester City Football Club",
-            "abbreviation": "MCI",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WLWWD",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 22,
-                "against": 6
-              }
-            }
-          },
-          {
-            "id": 14,
-            "position": 6,
-            "name": "Manchester United",
-            "abbreviation": "MNU",
-            "clubCrest": "",
-            "points": 17,
-            "form": "LWLLD",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 2,
-              "lose": 4,
-              "goals": {
-                "for": 19,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 15,
-            "position": 20,
-            "name": "Norwich City",
-            "abbreviation": "NOR",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 8,
-              "goals": {
-                "for": 5,
-                "against": 26
-              }
-            }
-          },
-          {
-            "id": 16,
-            "position": 13,
-            "name": "Southampton FC",
-            "abbreviation": "SOT",
-            "clubCrest": "",
-            "points": 14,
-            "form": "WWDWL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 5,
-              "lose": 3,
-              "goals": {
-                "for": 10,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 17,
-            "position": 9,
-            "name": "Tottenham Hotspur",
-            "abbreviation": "TOT",
-            "clubCrest": "",
-            "points": 16,
-            "form": "DLLWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 9,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 18,
-            "position": 17,
-            "name": "Watford FC",
-            "abbreviation": "WAT",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLWLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 12,
-                "against": 19
-              }
-            }
-          },
-          {
-            "id": 19,
-            "position": 3,
-            "name": "West Ham United",
-            "abbreviation": "WHU",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WWWWL",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 23,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 20,
-            "position": 8,
-            "name": "Wolverhampton Wanderers",
-            "abbreviation": "WOL",
-            "clubCrest": "",
-            "points": 16,
-            "form": "LWDWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 12
-              }
-            }
-          }
-        ],
-
-        "twenty": [
-          {
-            "id": 1,
-            "position": 19,
-            "name": "Newcastle United",
-            "abbreviation": "NEW",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 5,
-              "goals": {
-                "for": 12,
-                "against": 24
-              }
-            }
-          },
-          {
-            "id": 2,
-            "position": 5,
-            "name": "Arsenal FC",
-            "abbreviation": "ARS",
-            "clubCrest": "",
-            "points": 20,
-            "form": "WWWDD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 2,
-              "lose": 3,
-              "goals": {
-                "for": 13,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 3,
-            "position": 16,
-            "name": "Aston Villa",
-            "abbreviation": "VIL",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLLLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 14,
-                "against": 20
-              }
-            }
-          },
-          {
-            "id": 4,
-            "position": 14,
-            "name": "Brentford FC",
-            "abbreviation": "BFC",
-            "clubCrest": "",
-            "points": 12,
-            "form": "LLLLW",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 3,
-              "lose": 5,
-              "goals": {
-                "for": 13,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 5,
-            "position": 7,
-            "name": "Brighton & Hove Albion",
-            "abbreviation": "BHA",
-            "clubCrest": "",
-            "points": 17,
-            "form": "DDLDD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 5,
-              "lose": 2,
-              "goals": {
-                "for": 12,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 6,
-            "position": 18,
-            "name": "Burnley FC",
-            "abbreviation": "BUR",
-            "clubCrest": "",
-            "points": 8,
-            "form": "DWDLD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 5,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 7,
-            "position": 1,
-            "name": "Chelsea FC",
-            "abbreviation": "CFC",
-            "clubCrest": "",
-            "points": 26,
-            "form": "DWWWW",
-            "all": {
-              "played": 11,
-              "win": 8,
-              "draw": 2,
-              "lose": 1,
-              "goals": {
-                "for": 27,
-                "against": 4
-              }
-            }
-          },
-          {
-            "id": 8,
-            "position": 10,
-            "name": "Crystal Palace",
-            "abbreviation": "PAL",
-            "clubCrest": "",
-            "points": 15,
-            "form": "WWDDD",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 6,
-              "lose": 2,
-              "goals": {
-                "for": 15,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 9,
-            "position": 11,
-            "name": "Everton FC",
-            "abbreviation": "EVE",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLLLD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 10,
-            "position": 15,
-            "name": "Leeds United",
-            "abbreviation": "LUFC",
-            "clubCrest": "",
-            "points": 11,
-            "form": "DWDLW",
-            "all": {
-              "played": 11,
-              "win": 2,
-              "draw": 5,
-              "lose": 4,
-              "goals": {
-                "for": 11,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 11,
-            "position": 12,
-            "name": "Leicester City",
-            "abbreviation": "LCFC",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLWWD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 12,
-            "position": 4,
-            "name": "Liverpool FC",
-            "abbreviation": "LFC",
-            "clubCrest": "",
-            "points": 22,
-            "form": "LDWWD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 4,
-              "lose": 1,
-              "goals": {
-                "for": 31,
-                "against": 11
-              }
-            }
-          },
-          {
-            "id": 13,
-            "position": 2,
-            "name": "Manchester City Football Club",
-            "abbreviation": "MCI",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WLWWD",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 22,
-                "against": 6
-              }
-            }
-          },
-          {
-            "id": 14,
-            "position": 6,
-            "name": "Manchester United",
-            "abbreviation": "MNU",
-            "clubCrest": "",
-            "points": 17,
-            "form": "LWLLD",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 2,
-              "lose": 4,
-              "goals": {
-                "for": 19,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 15,
-            "position": 20,
-            "name": "Norwich City",
-            "abbreviation": "NOR",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 8,
-              "goals": {
-                "for": 5,
-                "against": 26
-              }
-            }
-          },
-          {
-            "id": 16,
-            "position": 13,
-            "name": "Southampton FC",
-            "abbreviation": "SOT",
-            "clubCrest": "",
-            "points": 14,
-            "form": "WWDWL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 5,
-              "lose": 3,
-              "goals": {
-                "for": 10,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 17,
-            "position": 9,
-            "name": "Tottenham Hotspur",
-            "abbreviation": "TOT",
-            "clubCrest": "",
-            "points": 16,
-            "form": "DLLWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 9,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 18,
-            "position": 17,
-            "name": "Watford FC",
-            "abbreviation": "WAT",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLWLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 12,
-                "against": 19
-              }
-            }
-          },
-          {
-            "id": 19,
-            "position": 3,
-            "name": "West Ham United",
-            "abbreviation": "WHU",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WWWWL",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 23,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 20,
-            "position": 8,
-            "name": "Wolverhampton Wanderers",
-            "abbreviation": "WOL",
-            "clubCrest": "",
-            "points": 16,
-            "form": "LWDWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 12
-              }
-            }
-          }
-        ],
-
-        "nineteen": [
-          {
-            "id": 1,
-            "position": 19,
-            "name": "Newcastle United",
-            "abbreviation": "NEW",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 5,
-              "goals": {
-                "for": 12,
-                "against": 24
-              }
-            }
-          },
-          {
-            "id": 2,
-            "position": 5,
-            "name": "Arsenal FC",
-            "abbreviation": "ARS",
-            "clubCrest": "",
-            "points": 20,
-            "form": "WWWDD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 2,
-              "lose": 3,
-              "goals": {
-                "for": 13,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 3,
-            "position": 16,
-            "name": "Aston Villa",
-            "abbreviation": "VIL",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLLLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 14,
-                "against": 20
-              }
-            }
-          },
-          {
-            "id": 4,
-            "position": 14,
-            "name": "Brentford FC",
-            "abbreviation": "BFC",
-            "clubCrest": "",
-            "points": 12,
-            "form": "LLLLW",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 3,
-              "lose": 5,
-              "goals": {
-                "for": 13,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 5,
-            "position": 7,
-            "name": "Brighton & Hove Albion",
-            "abbreviation": "BHA",
-            "clubCrest": "",
-            "points": 17,
-            "form": "DDLDD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 5,
-              "lose": 2,
-              "goals": {
-                "for": 12,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 6,
-            "position": 18,
-            "name": "Burnley FC",
-            "abbreviation": "BUR",
-            "clubCrest": "",
-            "points": 8,
-            "form": "DWDLD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 5,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 7,
-            "position": 1,
-            "name": "Chelsea FC",
-            "abbreviation": "CFC",
-            "clubCrest": "",
-            "points": 26,
-            "form": "DWWWW",
-            "all": {
-              "played": 11,
-              "win": 8,
-              "draw": 2,
-              "lose": 1,
-              "goals": {
-                "for": 27,
-                "against": 4
-              }
-            }
-          },
-          {
-            "id": 8,
-            "position": 10,
-            "name": "Crystal Palace",
-            "abbreviation": "PAL",
-            "clubCrest": "",
-            "points": 15,
-            "form": "WWDDD",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 6,
-              "lose": 2,
-              "goals": {
-                "for": 15,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 9,
-            "position": 11,
-            "name": "Everton FC",
-            "abbreviation": "EVE",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLLLD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 10,
-            "position": 15,
-            "name": "Leeds United",
-            "abbreviation": "LUFC",
-            "clubCrest": "",
-            "points": 11,
-            "form": "DWDLW",
-            "all": {
-              "played": 11,
-              "win": 2,
-              "draw": 5,
-              "lose": 4,
-              "goals": {
-                "for": 11,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 11,
-            "position": 12,
-            "name": "Leicester City",
-            "abbreviation": "LCFC",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLWWD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 12,
-            "position": 4,
-            "name": "Liverpool FC",
-            "abbreviation": "LFC",
-            "clubCrest": "",
-            "points": 22,
-            "form": "LDWWD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 4,
-              "lose": 1,
-              "goals": {
-                "for": 31,
-                "against": 11
-              }
-            }
-          },
-          {
-            "id": 13,
-            "position": 2,
-            "name": "Manchester City Football Club",
-            "abbreviation": "MCI",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WLWWD",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 22,
-                "against": 6
-              }
-            }
-          },
-          {
-            "id": 14,
-            "position": 6,
-            "name": "Manchester United",
-            "abbreviation": "MNU",
-            "clubCrest": "",
-            "points": 17,
-            "form": "LWLLD",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 2,
-              "lose": 4,
-              "goals": {
-                "for": 19,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 15,
-            "position": 20,
-            "name": "Norwich City",
-            "abbreviation": "NOR",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 8,
-              "goals": {
-                "for": 5,
-                "against": 26
-              }
-            }
-          },
-          {
-            "id": 16,
-            "position": 13,
-            "name": "Southampton FC",
-            "abbreviation": "SOT",
-            "clubCrest": "",
-            "points": 14,
-            "form": "WWDWL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 5,
-              "lose": 3,
-              "goals": {
-                "for": 10,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 17,
-            "position": 9,
-            "name": "Tottenham Hotspur",
-            "abbreviation": "TOT",
-            "clubCrest": "",
-            "points": 16,
-            "form": "DLLWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 9,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 18,
-            "position": 17,
-            "name": "Watford FC",
-            "abbreviation": "WAT",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLWLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 12,
-                "against": 19
-              }
-            }
-          },
-          {
-            "id": 19,
-            "position": 3,
-            "name": "West Ham United",
-            "abbreviation": "WHU",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WWWWL",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 23,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 20,
-            "position": 8,
-            "name": "Wolverhampton Wanderers",
-            "abbreviation": "WOL",
-            "clubCrest": "",
-            "points": 16,
-            "form": "LWDWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 12
-              }
-            }
-          }
-        ],
-
-        "eighteen": [
-          {
-            "id": 1,
-            "position": 19,
-            "name": "Newcastle United",
-            "abbreviation": "NEW",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 5,
-              "goals": {
-                "for": 12,
-                "against": 24
-              }
-            }
-          },
-          {
-            "id": 2,
-            "position": 5,
-            "name": "Arsenal FC",
-            "abbreviation": "ARS",
-            "clubCrest": "",
-            "points": 20,
-            "form": "WWWDD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 2,
-              "lose": 3,
-              "goals": {
-                "for": 13,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 3,
-            "position": 16,
-            "name": "Aston Villa",
-            "abbreviation": "VIL",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLLLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 14,
-                "against": 20
-              }
-            }
-          },
-          {
-            "id": 4,
-            "position": 14,
-            "name": "Brentford FC",
-            "abbreviation": "BFC",
-            "clubCrest": "",
-            "points": 12,
-            "form": "LLLLW",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 3,
-              "lose": 5,
-              "goals": {
-                "for": 13,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 5,
-            "position": 7,
-            "name": "Brighton & Hove Albion",
-            "abbreviation": "BHA",
-            "clubCrest": "",
-            "points": 17,
-            "form": "DDLDD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 5,
-              "lose": 2,
-              "goals": {
-                "for": 12,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 6,
-            "position": 18,
-            "name": "Burnley FC",
-            "abbreviation": "BUR",
-            "clubCrest": "",
-            "points": 8,
-            "form": "DWDLD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 5,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 7,
-            "position": 1,
-            "name": "Chelsea FC",
-            "abbreviation": "CFC",
-            "clubCrest": "",
-            "points": 26,
-            "form": "DWWWW",
-            "all": {
-              "played": 11,
-              "win": 8,
-              "draw": 2,
-              "lose": 1,
-              "goals": {
-                "for": 27,
-                "against": 4
-              }
-            }
-          },
-          {
-            "id": 8,
-            "position": 10,
-            "name": "Crystal Palace",
-            "abbreviation": "PAL",
-            "clubCrest": "",
-            "points": 15,
-            "form": "WWDDD",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 6,
-              "lose": 2,
-              "goals": {
-                "for": 15,
-                "against": 14
-              }
-            }
-          },
-          {
-            "id": 9,
-            "position": 11,
-            "name": "Everton FC",
-            "abbreviation": "EVE",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLLLD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 10,
-            "position": 15,
-            "name": "Leeds United",
-            "abbreviation": "LUFC",
-            "clubCrest": "",
-            "points": 11,
-            "form": "DWDLW",
-            "all": {
-              "played": 11,
-              "win": 2,
-              "draw": 5,
-              "lose": 4,
-              "goals": {
-                "for": 11,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 11,
-            "position": 12,
-            "name": "Leicester City",
-            "abbreviation": "LCFC",
-            "clubCrest": "",
-            "points": 15,
-            "form": "DLWWD",
-            "all": {
-              "played": 11,
-              "win": 4,
-              "draw": 3,
-              "lose": 4,
-              "goals": {
-                "for": 16,
-                "against": 18
-              }
-            }
-          },
-          {
-            "id": 12,
-            "position": 4,
-            "name": "Liverpool FC",
-            "abbreviation": "LFC",
-            "clubCrest": "",
-            "points": 22,
-            "form": "LDWWD",
-            "all": {
-              "played": 11,
-              "win": 6,
-              "draw": 4,
-              "lose": 1,
-              "goals": {
-                "for": 31,
-                "against": 11
-              }
-            }
-          },
-          {
-            "id": 13,
-            "position": 2,
-            "name": "Manchester City Football Club",
-            "abbreviation": "MCI",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WLWWD",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 22,
-                "against": 6
-              }
-            }
-          },
-          {
-            "id": 14,
-            "position": 6,
-            "name": "Manchester United",
-            "abbreviation": "MNU",
-            "clubCrest": "",
-            "points": 17,
-            "form": "LWLLD",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 2,
-              "lose": 4,
-              "goals": {
-                "for": 19,
-                "against": 17
-              }
-            }
-          },
-          {
-            "id": 15,
-            "position": 20,
-            "name": "Norwich City",
-            "abbreviation": "NOR",
-            "clubCrest": "",
-            "points": 5,
-            "form": "WLLDD",
-            "all": {
-              "played": 11,
-              "win": 1,
-              "draw": 2,
-              "lose": 8,
-              "goals": {
-                "for": 5,
-                "against": 26
-              }
-            }
-          },
-          {
-            "id": 16,
-            "position": 13,
-            "name": "Southampton FC",
-            "abbreviation": "SOT",
-            "clubCrest": "",
-            "points": 14,
-            "form": "WWDWL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 5,
-              "lose": 3,
-              "goals": {
-                "for": 10,
-                "against": 12
-              }
-            }
-          },
-          {
-            "id": 17,
-            "position": 9,
-            "name": "Tottenham Hotspur",
-            "abbreviation": "TOT",
-            "clubCrest": "",
-            "points": 16,
-            "form": "DLLWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 9,
-                "against": 16
-              }
-            }
-          },
-          {
-            "id": 18,
-            "position": 17,
-            "name": "Watford FC",
-            "abbreviation": "WAT",
-            "clubCrest": "",
-            "points": 10,
-            "form": "LLWLL",
-            "all": {
-              "played": 11,
-              "win": 3,
-              "draw": 1,
-              "lose": 7,
-              "goals": {
-                "for": 12,
-                "against": 19
-              }
-            }
-          },
-          {
-            "id": 19,
-            "position": 3,
-            "name": "West Ham United",
-            "abbreviation": "WHU",
-            "clubCrest": "",
-            "points": 23,
-            "form": "WWWWL",
-            "all": {
-              "played": 11,
-              "win": 7,
-              "draw": 2,
-              "lose": 2,
-              "goals": {
-                "for": 23,
-                "against": 13
-              }
-            }
-          },
-          {
-            "id": 20,
-            "position": 8,
-            "name": "Wolverhampton Wanderers",
-            "abbreviation": "WOL",
-            "clubCrest": "",
-            "points": 16,
-            "form": "LWDWW",
-            "all": {
-              "played": 11,
-              "win": 5,
-              "draw": 1,
-              "lose": 5,
-              "goals": {
-                "for": 11,
-                "against": 12
-              }
-            }
-          }
-        ]
-      },
+      "PremierLeague": [
+        {
+          "year": "2021/22",
+          "table": [
+            {
+              "id": 1,
+              "position": 19,
+              "name": "Newcastle United",
+              "abbreviation": "NEW",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 12,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "id": 2,
+              "position": 5,
+              "name": "Arsenal FC",
+              "abbreviation": "ARS",
+              "clubCrest": "",
+              "points": 20,
+              "form": "WWWDD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 3,
+              "position": 16,
+              "name": "Aston Villa",
+              "abbreviation": "VIL",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLLLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 20
+                }
+              }
+            },
+            {
+              "id": 4,
+              "position": 14,
+              "name": "Brentford FC",
+              "abbreviation": "BFC",
+              "clubCrest": "",
+              "points": 12,
+              "form": "LLLLW",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 5,
+              "position": 7,
+              "name": "Brighton & Hove Albion",
+              "abbreviation": "BHA",
+              "clubCrest": "",
+              "points": 17,
+              "form": "DDLDD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 6,
+              "position": 18,
+              "name": "Burnley FC",
+              "abbreviation": "BUR",
+              "clubCrest": "",
+              "points": 8,
+              "form": "DWDLD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 7,
+              "position": 1,
+              "name": "Chelsea FC",
+              "abbreviation": "CFC",
+              "clubCrest": "",
+              "points": 26,
+              "form": "DWWWW",
+              "all": {
+                "played": 11,
+                "win": 8,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 27,
+                  "against": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "position": 10,
+              "name": "Crystal Palace",
+              "abbreviation": "PAL",
+              "clubCrest": "",
+              "points": 15,
+              "form": "WWDDD",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 9,
+              "position": 11,
+              "name": "Everton FC",
+              "abbreviation": "EVE",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLLLD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 10,
+              "position": 15,
+              "name": "Leeds United",
+              "abbreviation": "LUFC",
+              "clubCrest": "",
+              "points": 11,
+              "form": "DWDLW",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 11,
+              "position": 12,
+              "name": "Leicester City",
+              "abbreviation": "LCFC",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLWWD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 12,
+              "position": 4,
+              "name": "Liverpool FC",
+              "abbreviation": "LFC",
+              "clubCrest": "",
+              "points": 22,
+              "form": "LDWWD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 31,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "id": 13,
+              "position": 2,
+              "name": "Manchester City FC",
+              "abbreviation": "MCI",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WLWWD",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 22,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "id": 14,
+              "position": 6,
+              "name": "Manchester United",
+              "abbreviation": "MNU",
+              "clubCrest": "",
+              "points": 17,
+              "form": "LWLLD",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 15,
+              "position": 20,
+              "name": "Norwich City",
+              "abbreviation": "NOR",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 5,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "id": 16,
+              "position": 13,
+              "name": "Southampton FC",
+              "abbreviation": "SOT",
+              "clubCrest": "",
+              "points": 14,
+              "form": "WWDWL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 17,
+              "position": 9,
+              "name": "Tottenham Hotspur",
+              "abbreviation": "TOT",
+              "clubCrest": "",
+              "points": 16,
+              "form": "DLLWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 18,
+              "position": 17,
+              "name": "Watford FC",
+              "abbreviation": "WAT",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLWLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 19
+                }
+              }
+            },
+            {
+              "id": 19,
+              "position": 3,
+              "name": "West Ham United",
+              "abbreviation": "WHU",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WWWWL",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 20,
+              "position": 8,
+              "name": "Wolverhampton Wanderers",
+              "abbreviation": "WOL",
+              "clubCrest": "",
+              "points": 16,
+              "form": "LWDWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "year": "2020/21",
+          "table": [
+            {
+              "id": 1,
+              "position": 1,
+              "name": "Newcastle United",
+              "abbreviation": "NEW",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 12,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "id": 2,
+              "position": 2,
+              "name": "Arsenal FC",
+              "abbreviation": "ARS",
+              "clubCrest": "",
+              "points": 20,
+              "form": "WWWDD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 3,
+              "position": 3,
+              "name": "Aston Villa",
+              "abbreviation": "VIL",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLLLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 20
+                }
+              }
+            },
+            {
+              "id": 4,
+              "position": 4,
+              "name": "Brentford FC",
+              "abbreviation": "BFC",
+              "clubCrest": "",
+              "points": 12,
+              "form": "LLLLW",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 5,
+              "position": 5,
+              "name": "Brighton & Hove Albion",
+              "abbreviation": "BHA",
+              "clubCrest": "",
+              "points": 17,
+              "form": "DDLDD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 6,
+              "position": 6,
+              "name": "Burnley FC",
+              "abbreviation": "BUR",
+              "clubCrest": "",
+              "points": 8,
+              "form": "DWDLD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 7,
+              "position": 7,
+              "name": "Chelsea FC",
+              "abbreviation": "CFC",
+              "clubCrest": "",
+              "points": 26,
+              "form": "DWWWW",
+              "all": {
+                "played": 11,
+                "win": 8,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 27,
+                  "against": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "position": 8,
+              "name": "Crystal Palace",
+              "abbreviation": "PAL",
+              "clubCrest": "",
+              "points": 15,
+              "form": "WWDDD",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 9,
+              "position": 9,
+              "name": "Everton FC",
+              "abbreviation": "EVE",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLLLD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 10,
+              "position": 15,
+              "name": "Leeds United",
+              "abbreviation": "LUFC",
+              "clubCrest": "",
+              "points": 11,
+              "form": "DWDLW",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 11,
+              "position": 12,
+              "name": "Leicester City",
+              "abbreviation": "LCFC",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLWWD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 12,
+              "position": 4,
+              "name": "Liverpool FC",
+              "abbreviation": "LFC",
+              "clubCrest": "",
+              "points": 22,
+              "form": "LDWWD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 31,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "id": 13,
+              "position": 2,
+              "name": "Manchester City Football Club",
+              "abbreviation": "MCI",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WLWWD",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 22,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "id": 14,
+              "position": 6,
+              "name": "Manchester United",
+              "abbreviation": "MNU",
+              "clubCrest": "",
+              "points": 17,
+              "form": "LWLLD",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 15,
+              "position": 20,
+              "name": "Norwich City",
+              "abbreviation": "NOR",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 5,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "id": 16,
+              "position": 13,
+              "name": "Southampton FC",
+              "abbreviation": "SOT",
+              "clubCrest": "",
+              "points": 14,
+              "form": "WWDWL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 17,
+              "position": 9,
+              "name": "Tottenham Hotspur",
+              "abbreviation": "TOT",
+              "clubCrest": "",
+              "points": 16,
+              "form": "DLLWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 18,
+              "position": 17,
+              "name": "Watford FC",
+              "abbreviation": "WAT",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLWLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 19
+                }
+              }
+            },
+            {
+              "id": 19,
+              "position": 3,
+              "name": "West Ham United",
+              "abbreviation": "WHU",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WWWWL",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 20,
+              "position": 8,
+              "name": "Wolverhampton Wanderers",
+              "abbreviation": "WOL",
+              "clubCrest": "",
+              "points": 16,
+              "form": "LWDWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "year": "2019/20",
+          "table": [
+            {
+              "id": 1,
+              "position": 19,
+              "name": "Newcastle United",
+              "abbreviation": "NEW",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 12,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "id": 2,
+              "position": 5,
+              "name": "Arsenal FC",
+              "abbreviation": "ARS",
+              "clubCrest": "",
+              "points": 20,
+              "form": "WWWDD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 3,
+              "position": 16,
+              "name": "Aston Villa",
+              "abbreviation": "VIL",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLLLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 20
+                }
+              }
+            },
+            {
+              "id": 4,
+              "position": 14,
+              "name": "Brentford FC",
+              "abbreviation": "BFC",
+              "clubCrest": "",
+              "points": 12,
+              "form": "LLLLW",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 5,
+              "position": 7,
+              "name": "Brighton & Hove Albion",
+              "abbreviation": "BHA",
+              "clubCrest": "",
+              "points": 17,
+              "form": "DDLDD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 6,
+              "position": 18,
+              "name": "Burnley FC",
+              "abbreviation": "BUR",
+              "clubCrest": "",
+              "points": 8,
+              "form": "DWDLD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 7,
+              "position": 1,
+              "name": "Chelsea FC",
+              "abbreviation": "CFC",
+              "clubCrest": "",
+              "points": 26,
+              "form": "DWWWW",
+              "all": {
+                "played": 11,
+                "win": 8,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 27,
+                  "against": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "position": 10,
+              "name": "Crystal Palace",
+              "abbreviation": "PAL",
+              "clubCrest": "",
+              "points": 15,
+              "form": "WWDDD",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 9,
+              "position": 11,
+              "name": "Everton FC",
+              "abbreviation": "EVE",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLLLD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 10,
+              "position": 15,
+              "name": "Leeds United",
+              "abbreviation": "LUFC",
+              "clubCrest": "",
+              "points": 11,
+              "form": "DWDLW",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 11,
+              "position": 12,
+              "name": "Leicester City",
+              "abbreviation": "LCFC",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLWWD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 12,
+              "position": 4,
+              "name": "Liverpool FC",
+              "abbreviation": "LFC",
+              "clubCrest": "",
+              "points": 22,
+              "form": "LDWWD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 31,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "id": 13,
+              "position": 2,
+              "name": "Manchester City Football Club",
+              "abbreviation": "MCI",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WLWWD",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 22,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "id": 14,
+              "position": 6,
+              "name": "Manchester United",
+              "abbreviation": "MNU",
+              "clubCrest": "",
+              "points": 17,
+              "form": "LWLLD",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 15,
+              "position": 20,
+              "name": "Norwich City",
+              "abbreviation": "NOR",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 5,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "id": 16,
+              "position": 13,
+              "name": "Southampton FC",
+              "abbreviation": "SOT",
+              "clubCrest": "",
+              "points": 14,
+              "form": "WWDWL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 17,
+              "position": 9,
+              "name": "Tottenham Hotspur",
+              "abbreviation": "TOT",
+              "clubCrest": "",
+              "points": 16,
+              "form": "DLLWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 18,
+              "position": 17,
+              "name": "Watford FC",
+              "abbreviation": "WAT",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLWLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 19
+                }
+              }
+            },
+            {
+              "id": 19,
+              "position": 3,
+              "name": "West Ham United",
+              "abbreviation": "WHU",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WWWWL",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 20,
+              "position": 8,
+              "name": "Wolverhampton Wanderers",
+              "abbreviation": "WOL",
+              "clubCrest": "",
+              "points": 16,
+              "form": "LWDWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "year": "2018/19",
+          "table": [
+            {
+              "id": 1,
+              "position": 19,
+              "name": "Newcastle United",
+              "abbreviation": "NEW",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 12,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "id": 2,
+              "position": 5,
+              "name": "Arsenal FC",
+              "abbreviation": "ARS",
+              "clubCrest": "",
+              "points": 20,
+              "form": "WWWDD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 3,
+              "position": 16,
+              "name": "Aston Villa",
+              "abbreviation": "VIL",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLLLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 20
+                }
+              }
+            },
+            {
+              "id": 4,
+              "position": 14,
+              "name": "Brentford FC",
+              "abbreviation": "BFC",
+              "clubCrest": "",
+              "points": 12,
+              "form": "LLLLW",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 5,
+              "position": 7,
+              "name": "Brighton & Hove Albion",
+              "abbreviation": "BHA",
+              "clubCrest": "",
+              "points": 17,
+              "form": "DDLDD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 6,
+              "position": 18,
+              "name": "Burnley FC",
+              "abbreviation": "BUR",
+              "clubCrest": "",
+              "points": 8,
+              "form": "DWDLD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 7,
+              "position": 1,
+              "name": "Chelsea FC",
+              "abbreviation": "CFC",
+              "clubCrest": "",
+              "points": 26,
+              "form": "DWWWW",
+              "all": {
+                "played": 11,
+                "win": 8,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 27,
+                  "against": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "position": 10,
+              "name": "Crystal Palace",
+              "abbreviation": "PAL",
+              "clubCrest": "",
+              "points": 15,
+              "form": "WWDDD",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 9,
+              "position": 11,
+              "name": "Everton FC",
+              "abbreviation": "EVE",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLLLD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 10,
+              "position": 15,
+              "name": "Leeds United",
+              "abbreviation": "LUFC",
+              "clubCrest": "",
+              "points": 11,
+              "form": "DWDLW",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 11,
+              "position": 12,
+              "name": "Leicester City",
+              "abbreviation": "LCFC",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLWWD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 12,
+              "position": 4,
+              "name": "Liverpool FC",
+              "abbreviation": "LFC",
+              "clubCrest": "",
+              "points": 22,
+              "form": "LDWWD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 31,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "id": 13,
+              "position": 2,
+              "name": "Manchester City FC",
+              "abbreviation": "MCI",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WLWWD",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 22,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "id": 14,
+              "position": 6,
+              "name": "Manchester United",
+              "abbreviation": "MNU",
+              "clubCrest": "",
+              "points": 17,
+              "form": "LWLLD",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 15,
+              "position": 20,
+              "name": "Norwich City",
+              "abbreviation": "NOR",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 5,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "id": 16,
+              "position": 13,
+              "name": "Southampton FC",
+              "abbreviation": "SOT",
+              "clubCrest": "",
+              "points": 14,
+              "form": "WWDWL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 17,
+              "position": 9,
+              "name": "Tottenham Hotspur",
+              "abbreviation": "TOT",
+              "clubCrest": "",
+              "points": 16,
+              "form": "DLLWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 18,
+              "position": 17,
+              "name": "Watford FC",
+              "abbreviation": "WAT",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLWLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 19
+                }
+              }
+            },
+            {
+              "id": 19,
+              "position": 3,
+              "name": "West Ham United",
+              "abbreviation": "WHU",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WWWWL",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 20,
+              "position": 8,
+              "name": "Wolverhampton Wanderers",
+              "abbreviation": "WOL",
+              "clubCrest": "",
+              "points": 16,
+              "form": "LWDWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "year": "2017/18",
+          "table": [
+            {
+              "id": 1,
+              "position": 19,
+              "name": "Newcastle United",
+              "abbreviation": "NEW",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 12,
+                  "against": 24
+                }
+              }
+            },
+            {
+              "id": 2,
+              "position": 5,
+              "name": "Arsenal FC",
+              "abbreviation": "ARS",
+              "clubCrest": "",
+              "points": 20,
+              "form": "WWWDD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 3,
+              "position": 16,
+              "name": "Aston Villa",
+              "abbreviation": "VIL",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLLLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 20
+                }
+              }
+            },
+            {
+              "id": 4,
+              "position": 14,
+              "name": "Brentford FC",
+              "abbreviation": "BFC",
+              "clubCrest": "",
+              "points": 12,
+              "form": "LLLLW",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 5,
+              "position": 7,
+              "name": "Brighton & Hove Albion",
+              "abbreviation": "BHA",
+              "clubCrest": "",
+              "points": 17,
+              "form": "DDLDD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 6,
+              "position": 18,
+              "name": "Burnley FC",
+              "abbreviation": "BUR",
+              "clubCrest": "",
+              "points": 8,
+              "form": "DWDLD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 7,
+              "position": 1,
+              "name": "Chelsea FC",
+              "abbreviation": "CFC",
+              "clubCrest": "",
+              "points": 26,
+              "form": "DWWWW",
+              "all": {
+                "played": 11,
+                "win": 8,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 27,
+                  "against": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "position": 10,
+              "name": "Crystal Palace",
+              "abbreviation": "PAL",
+              "clubCrest": "",
+              "points": 15,
+              "form": "WWDDD",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              }
+            },
+            {
+              "id": 9,
+              "position": 11,
+              "name": "Everton FC",
+              "abbreviation": "EVE",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLLLD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 10,
+              "position": 15,
+              "name": "Leeds United",
+              "abbreviation": "LUFC",
+              "clubCrest": "",
+              "points": 11,
+              "form": "DWDLW",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 11,
+              "position": 12,
+              "name": "Leicester City",
+              "abbreviation": "LCFC",
+              "clubCrest": "",
+              "points": 15,
+              "form": "DLWWD",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 16,
+                  "against": 18
+                }
+              }
+            },
+            {
+              "id": 12,
+              "position": 4,
+              "name": "Liverpool FC",
+              "abbreviation": "LFC",
+              "clubCrest": "",
+              "points": 22,
+              "form": "LDWWD",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 31,
+                  "against": 11
+                }
+              }
+            },
+            {
+              "id": 13,
+              "position": 2,
+              "name": "Manchester City Football Club",
+              "abbreviation": "MCI",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WLWWD",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 22,
+                  "against": 6
+                }
+              }
+            },
+            {
+              "id": 14,
+              "position": 6,
+              "name": "Manchester United",
+              "abbreviation": "MNU",
+              "clubCrest": "",
+              "points": 17,
+              "form": "LWLLD",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 17
+                }
+              }
+            },
+            {
+              "id": 15,
+              "position": 20,
+              "name": "Norwich City",
+              "abbreviation": "NOR",
+              "clubCrest": "",
+              "points": 5,
+              "form": "WLLDD",
+              "all": {
+                "played": 11,
+                "win": 1,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 5,
+                  "against": 26
+                }
+              }
+            },
+            {
+              "id": 16,
+              "position": 13,
+              "name": "Southampton FC",
+              "abbreviation": "SOT",
+              "clubCrest": "",
+              "points": 14,
+              "form": "WWDWL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 12
+                }
+              }
+            },
+            {
+              "id": 17,
+              "position": 9,
+              "name": "Tottenham Hotspur",
+              "abbreviation": "TOT",
+              "clubCrest": "",
+              "points": 16,
+              "form": "DLLWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 16
+                }
+              }
+            },
+            {
+              "id": 18,
+              "position": 17,
+              "name": "Watford FC",
+              "abbreviation": "WAT",
+              "clubCrest": "",
+              "points": 10,
+              "form": "LLWLL",
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 1,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 19
+                }
+              }
+            },
+            {
+              "id": 19,
+              "position": 3,
+              "name": "West Ham United",
+              "abbreviation": "WHU",
+              "clubCrest": "",
+              "points": 23,
+              "form": "WWWWL",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 23,
+                  "against": 13
+                }
+              }
+            },
+            {
+              "id": 20,
+              "position": 8,
+              "name": "Wolverhampton Wanderers",
+              "abbreviation": "WOL",
+              "clubCrest": "",
+              "points": 16,
+              "form": "LWDWW",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 11,
+                  "against": 12
+                }
+              }
+            }
+          ]
+        }
+      ],
       "EFLChampionship": [
         {
           "2021/22": {}
