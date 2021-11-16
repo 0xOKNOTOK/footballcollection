@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TeamPlayer = ({ name, position, number, nationality, photo }) => {
+const TeamPlayer = ({ name, position, number, nationality, photo, onLoan }) => {
   return (
     <div className='p-2 lg:w-1/3 md:w-1/2 w-full'>
       <div className='h-full flex items-center border-gray-700 border p-4 rounded-lg'>
@@ -16,6 +16,7 @@ const TeamPlayer = ({ name, position, number, nationality, photo }) => {
           <p className='text-gray-500 font-bold '>
             {number} - {position} - {nationality}
           </p>
+          {onLoan ? <p className='text-yellow-500 font-bold'>On Loan</p> : null}
         </div>
       </div>
     </div>

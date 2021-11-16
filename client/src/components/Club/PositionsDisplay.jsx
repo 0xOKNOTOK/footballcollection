@@ -22,6 +22,7 @@ const ClubPlayers = ({ team, position }) => {
                 position={player.position}
                 number={player.number}
                 nationality={player.nationality}
+                onLoan={player.onLoan}
               />
             ))
         )}
