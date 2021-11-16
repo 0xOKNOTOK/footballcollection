@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useContext } from 'react'
-import ClubInformation from '../components/Club/ClubInformationCard'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 import TeamsContext from '../hooks/dataContext'

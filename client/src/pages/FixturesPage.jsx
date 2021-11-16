@@ -6,9 +6,9 @@ import MainComponent from '../components/Main'
 const FixturesPage = () => {
   return (
     <MainComponent>
-      <section className='h-screen text-gray-600 body-font'>
+      <section className='h-full text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
-          <div className='flex flex-wrap content-center justify-center -mx-4 -my-8'>
+          <div className='flex flex-wrap content-center justify-center'>
             <Fixture />
             <Fixture />
             <Fixture />

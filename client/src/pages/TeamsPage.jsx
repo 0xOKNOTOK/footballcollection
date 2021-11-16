@@ -1,75 +1,30 @@
-import React from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
 
 import TeamsCard from '../components/Teams/TeamsCard'
 import TeamsPosition from '../components/Teams/TeamsPosition'
+import TeamsContext from '../hooks/dataContext'
 
 const TeamsPage = () => {
+  const [teams, setTeams] = useState([])
+
+  const clubData = useContext(TeamsContext)
+
+  useEffect(() => {
+    setTeams(clubData.data[0].PremierLeague)
+    console.log(teams)
+  }, [])
+
   return (
     <MainComponent>
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
-          <TeamsPosition>
-            <TeamsCard />
-          </TeamsPosition>
+          {teams.map((team, index) => (
+            <TeamsPosition position={index + 1}>
+              <TeamsCard name={team.name} badge={team.badge} />
+            </TeamsPosition>
+          ))}
         </div>
       </section>
       <Footer />
