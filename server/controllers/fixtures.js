@@ -2,7 +2,7 @@ const db = require('../database/queries')
 const fixtures = require('../data/fixtures.json')
 
 exports.getAllFixtures = (req, res) => {
-  res.status(200).json({ data: 'success' })
+  res.status(200).json(fixtures)
 }
 
 exports.getFixturesByLeague = (req, res) => {
