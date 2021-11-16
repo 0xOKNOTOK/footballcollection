@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
-import useDarkMode from '../hooks/useDarkMode'
 import ThemeToggle from './ThemeToggle'
 
 const Navigation = ({ handleSearchClick }) => {
-  const [colorMode, setColorMode] = useDarkMode()
   const [collapsed, setCollapsed] = useState(false)
 
   return (
@@ -46,8 +44,8 @@ const Navigation = ({ handleSearchClick }) => {
                   d='M267.855 461.219C272.709 457.574 289.205 463.825 296.846 467.406C295.076 505.499 334.958 494.986 318.848 498.001C302.737 501.016 261.787 465.777 267.855 461.219Z'
                   fill='black'
                   stroke='black'
-                  stroke-width='5'
-                  stroke-linecap='square'
+                  strokeWidth='5'
+                  strokeLinecap='square'
                 />
                 <path
                   d='M748.22 386.55L777.832 390.823L781.338 412.62L759.326 414.331L748.22 386.55Z'
@@ -78,7 +76,7 @@ const Navigation = ({ handleSearchClick }) => {
             >
               <svg viewBox='0 0 24 24' className='w-6 h-6 fill-current'>
                 <path
-                  fill-rule='evenodd'
+                  fillRule='evenodd'
                   d='M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z'
                 ></path>
               </svg>
@@ -125,9 +123,9 @@ const Navigation = ({ handleSearchClick }) => {
                 <path
                   d='M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z'
                   stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 ></path>
               </svg>
             </span>

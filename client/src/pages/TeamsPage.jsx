@@ -14,14 +14,14 @@ const TeamsPage = () => {
   useEffect(() => {
     setTeams(clubData.data[0].PremierLeague)
     console.log(teams)
-  }, [])
+  }, [clubData, teams])
 
   return (
     <MainComponent>
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
           {teams.map((team, index) => (
-            <TeamsPosition position={index + 1}>
+            <TeamsPosition key={index} position={index + 1}>
               <TeamsCard name={team.name} badge={team.badge} />
             </TeamsPosition>
           ))}

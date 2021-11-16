@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { BrowserRouter, Routes, Link, Route } from 'react-router-dom'
+import React, { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Navigation'
 
 import LandingPage from './pages/LandingPage'
@@ -16,6 +16,7 @@ const App = () => {
   const handleSearchChange = e => {
     e.preventDefault()
     setSearchBar(e.target.value)
+    console.log(searchBar)
   }
   return (
     <div>
