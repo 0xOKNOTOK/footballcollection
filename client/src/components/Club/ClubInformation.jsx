@@ -7,8 +7,6 @@ const ClubInformation = () => {
       <div className='container w-full px-1 py-10 mx-auto flex items-align-center justify-center flex-wrap'>
         <div className='flex flex-wrap -m-4'>
           <ClubInformationCard />
-          <ClubInformationCard />
-          <ClubInformationCard />
         </div>
       </div>
     </section>
