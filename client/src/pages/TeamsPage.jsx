@@ -5,7 +5,7 @@ import MainComponent from '../components/Main'
 
 import TeamsCard from '../components/Teams/TeamsCard'
 import TeamsPosition from '../components/Teams/TeamsPosition'
-import TeamsContext from '../hooks/dataContext'
+import TeamsContext from '../hooks/clubDataContext'
 
 const TeamsPage = () => {
   const [teams, setTeams] = useState([])

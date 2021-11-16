@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
-import TeamsContext from '../hooks/dataContext'
+import TeamsContext from '../hooks/clubDataContext'
 import PositionsDisplay from '../components/Club/PositionsDisplay'
 import ClubHeader from '../components/Club/ClubHeader'
 
