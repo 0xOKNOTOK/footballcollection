@@ -63,11 +63,12 @@ const TeamsPage = () => {
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
           <Dropdown
             handleFilterChange={handleYearFilterChange}
-            name={'year'}
+            name={'Year: '}
             options={DropdownYearOptions}
           />
           <Dropdown
             options={DropdownLeagueOptions}
+            name={'League: '}
             handleFilterChange={handleLeagueFilterChange}
           />
           {filter
