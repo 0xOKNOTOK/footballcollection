@@ -13,7 +13,18 @@ const TeamsPage = () => {
   const [leagueFilter, setLeagueFilter] = useState('PremierLeague')
   const fixturesData = useContext(FixtureContext)
 
-  const orderTable = leagueFilter => {}
+  const DropdownYearOptions = [
+    { id: 1, value: '2021/22' },
+    { id: 2, value: '2020/21' },
+    { id: 3, value: '2019/20' },
+    { id: 4, value: '2018/19' },
+    { id: 5, value: '2017/18' }
+  ]
+
+  const DropdownLeagueOptions = [
+    { id: 1, value: 'PremierLeague' },
+    { id: 2, value: 'EFLChampionship' }
+  ]
 
   useEffect(() => {
     if (leagueFilter === 'PremierLeague') {
@@ -50,8 +61,15 @@ const TeamsPage = () => {
     <MainComponent>
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
-          <Dropdown handleFilterChange={handleYearFilterChange} name={'year'} />
-          <Dropdown handleFilterChange={handleLeagueFilterChange} />
+          <Dropdown
+            handleFilterChange={handleYearFilterChange}
+            name={'year'}
+            options={DropdownYearOptions}
+          />
+          <Dropdown
+            options={DropdownLeagueOptions}
+            handleFilterChange={handleLeagueFilterChange}
+          />
           {filter
             ? table
                 .filter(table => table.year === filter)

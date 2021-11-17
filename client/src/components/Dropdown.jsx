@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Dropdown = ({ handleFilterChange, name }) => {
+const Dropdown = ({ handleFilterChange, name, options }) => {
+  console.log(options)
   return (
     <div>
       <label for={name}>{name}</label>
-
       <select onChange={handleFilterChange} name={name} className={name}>
-        <option value='PremierLeague'>2021/22</option>
-        <option value='EFLChampionship'>2020/21</option>
+        {options.map(item => (
+          <option value={item.value}> {item.value} </option>
+        ))}
       </select>
     </div>
   )
