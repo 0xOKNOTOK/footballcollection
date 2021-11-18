@@ -80,11 +80,7 @@ const TeamsPage = () => {
                       return a.position - b.position
                     })
                     .map(team => {
-                      return (
-                        <TeamsPosition position={team.position}>
-                          <TeamsCard team={team} />
-                        </TeamsPosition>
-                      )
+                      return <TeamsCard team={team} />
                     })
                 )
             : table.map((team, index) => (
