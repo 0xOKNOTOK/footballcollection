@@ -82,7 +82,7 @@ const TeamsPage = () => {
                     .map(team => {
                       return (
                         <TeamsPosition position={team.position}>
-                          <TeamsCard name={team.name} badge={team.clubCrest} />
+                          <TeamsCard team={team} />
                         </TeamsPosition>
                       )
                     })
