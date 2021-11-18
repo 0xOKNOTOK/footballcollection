@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import { FixturesProvider } from '../hooks/fixtureDataContext'
+import { TeamsProvider } from '../../hooks/clubDataContext'
 
-const FixturesContainer = props => {
-  const [fixturesData, setFixturesData] = useState({})
+const TeamsContainer = props => {
+  const [clubData, setClubData] = useState({})
   const [error, setError] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
   useEffect(() => {
-    fetch('/api/fixtures/')
+    fetch('/api/teams/')
       .then(res => res.json())
       .then(
         result => {
           setIsLoaded(true)
-          setFixturesData(result)
+          setClubData(result)
         },
         error => {
           setIsLoaded(true)
@@ -23,17 +23,15 @@ const FixturesContainer = props => {
     return <div>Error: {error.message}</div>
   } else if (!isLoaded) {
     return <div>Loading...</div>
-  } else if (Object.keys(fixturesData).length === 0) {
+  } else if (Object.keys(clubData).length === 0) {
     return <div> Loading...</div>
   } else {
     return (
       <div>
-        <FixturesProvider value={fixturesData}>
-          {props.children}
-        </FixturesProvider>
+        <TeamsProvider value={clubData}>{props.children}</TeamsProvider>
       </div>
     )
   }
 }
 
-export default FixturesContainer
+export default TeamsContainer

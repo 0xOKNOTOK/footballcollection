@@ -1,7 +1,7 @@
 import React from 'react'
 import Fixture from '../components/Fixtures/Fixture'
-import Footer from '../components/Footer'
-import MainComponent from '../components/Main'
+import Footer from '../components/General/Footer'
+import MainComponent from '../components/General/Main'
 
 const FixturesPage = () => {
   return (

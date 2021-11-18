@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react'
-import Dropdown from '../components/Dropdown'
-import Footer from '../components/Footer'
-import MainComponent from '../components/Main'
+import Dropdown from '../components/General/Dropdown'
+import Footer from '../components/General/Footer'
+import MainComponent from '../components/General/Main'
 import TableSkeleton from '../components/Teams/TableSkeleton'
 
 import TeamsCard from '../components/Teams/TeamsCard'

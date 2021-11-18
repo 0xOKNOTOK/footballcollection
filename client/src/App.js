@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navigation from './components/Navigation'
+import Navigation from './components/General/Navigation'
 
 import LandingPage from './pages/LandingPage'
 import ContactPage from './pages/ContactPage'
@@ -8,8 +8,8 @@ import StatsPage from './pages/StatsPage'
 import FixturesPage from './pages/FixturesPage'
 import TablesPage from './pages/TablesPage'
 import ClubPage from './pages/ClubPage'
-import TeamsContainer from './components/TeamsContainer'
-import FixturesContainer from './components/FixturesContainer'
+import TeamsContainer from './components/HooksContainers/TeamsContainer'
+import FixturesContainer from './components/HooksContainers/FixturesContainer'
 
 const App = () => {
   const [searchBar, setSearchBar] = useState('')

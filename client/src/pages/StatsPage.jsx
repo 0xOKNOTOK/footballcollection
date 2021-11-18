@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import MainComponent from '../components/Main'
+import Footer from '../components/General/Footer'
+import MainComponent from '../components/General/Main'
 
 const StatsPage = () => {
   return (

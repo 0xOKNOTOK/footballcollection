@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThemeContext } from '../hooks/useDarkMode'
+import { ThemeContext } from '../../hooks/useDarkMode'
 
 const ThemeToggle = () => {
   const { theme, setTheme } = React.useContext(ThemeContext)
