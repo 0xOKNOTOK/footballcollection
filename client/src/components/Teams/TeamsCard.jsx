@@ -3,24 +3,28 @@ import React from 'react'
 const TeamsCard = ({ team }) => {
   console.log(team)
   return (
-    <div className='flex flex-wrap mt-3 content-center justify-center'>
-      <div className='flex-grow w-full md:pl-8 pl-6 flex sm:items-center items-start flex-row'>
-        <div className='flex-grow flex-row sm:pl-6 sm:mt-0'>
-          <p className='inline-flex px-10'>{team.position}</p>
-          <img
-            src={team.clubCrest}
-            alt='TEMP'
-            width='25px'
-            className='inline-flex '
-          />
-          <span className='font-medium px-10 title-font text-gray-900 dark:text-gray-200 mb-1 text-xl '>
-            <a href='/clubpage' className=''>
-              {team.name}
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
+    <tr className='text-gray-300'>
+      <td className='text-center'> {team.position} </td>
+      <td className=' mx-auto text-center justify-center'>
+        <img
+          className='w-7 mx-auto'
+          src={team.clubCrest}
+          alt={team.name + ' badge'}
+        />{' '}
+      </td>
+      <td className=''> {team.name} </td>
+      <td className='text-center'>{team.all.played}</td>
+      <td className='text-center'>{team.all.win}</td>
+      <td className='text-center'>{team.all.draw}</td>
+      <td className='text-center'>{team.all.lose}</td>
+      <td className='text-center'>{team.all.goals.for}</td>
+      <td className='text-center'>{team.all.goals.against}</td>
+      <td className='text-center'>
+        {team.all.goals.for - team.all.goals.against}
+      </td>
+      <td className='text-center'>{team.points}</td>
+      <td className='text-center'>{team.form}</td>
+    </tr>
   )
 }
 

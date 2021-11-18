@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from 'react'
 import Dropdown from '../components/Dropdown'
 import Footer from '../components/Footer'
 import MainComponent from '../components/Main'
+import TableSkeleton from '../components/Teams/TableSkeleton'
 
 import TeamsCard from '../components/Teams/TeamsCard'
 import TeamsPosition from '../components/Teams/TeamsPosition'
@@ -71,23 +72,25 @@ const TeamsPage = () => {
             name={'League: '}
             handleFilterChange={handleLeagueFilterChange}
           />
-          {filter
-            ? table
-                .filter(table => table.year === filter)
-                .map((year, index) =>
-                  year.table
-                    .sort((a, b) => {
-                      return a.position - b.position
-                    })
-                    .map(team => {
-                      return <TeamsCard team={team} />
-                    })
-                )
-            : table.map((team, index) => (
-                <TeamsPosition key={index} position={index + 1}>
-                  <TeamsCard name={team.name} badge={team.badge} />
-                </TeamsPosition>
-              ))}
+          <TableSkeleton>
+            {filter
+              ? table
+                  .filter(table => table.year === filter)
+                  .map((year, index) =>
+                    year.table
+                      .sort((a, b) => {
+                        return a.position - b.position
+                      })
+                      .map(team => {
+                        return <TeamsCard team={team} />
+                      })
+                  )
+              : table.map((team, index) => (
+                  <TeamsPosition key={index} position={index + 1}>
+                    <TeamsCard name={team.name} badge={team.badge} />
+                  </TeamsPosition>
+                ))}
+          </TableSkeleton>
         </div>
       </section>
       <Footer />
