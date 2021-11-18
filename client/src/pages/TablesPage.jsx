@@ -12,7 +12,9 @@ const TeamsPage = () => {
   const [filter, setFilter] = useState('2021/22')
   const [table, setTable] = useState([])
   const [leagueFilter, setLeagueFilter] = useState('PremierLeague')
+
   const fixturesData = useContext(FixtureContext)
+  const Filtered = fixturesData.data.leagues
 
   const DropdownYearOptions = [
     { id: 1, value: '2021/22' },
@@ -29,18 +31,14 @@ const TeamsPage = () => {
 
   useEffect(() => {
     if (leagueFilter === 'PremierLeague') {
-      const Filtered = fixturesData.data.leagues.PremierLeague
-      console.log(Filtered, 'EPL')
       setTable(
-        Filtered.sort((a, b) => {
+        Filtered.PremierLeague.sort((a, b) => {
           return a.position - b.position
         })
       )
     } else if (leagueFilter === 'EFLChampionship') {
-      const Filtered = fixturesData.data.leagues.EFLChampionship
-      console.log(Filtered, 'EFL')
       setTable(
-        Filtered.sort((a, b) => {
+        Filtered.EFLChampionship.sort((a, b) => {
           return a.position - b.position
         })
       )
@@ -55,7 +53,6 @@ const TeamsPage = () => {
   const handleLeagueFilterChange = e => {
     e.preventDefault()
     setLeagueFilter(e.target.value)
-    console.log(leagueFilter)
   }
 
   return (
