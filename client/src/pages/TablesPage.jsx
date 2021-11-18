@@ -31,17 +31,9 @@ const TeamsPage = () => {
 
   useEffect(() => {
     if (leagueFilter === 'PremierLeague') {
-      setTable(
-        Filtered.PremierLeague.sort((a, b) => {
-          return a.position - b.position
-        })
-      )
+      setTable(Filtered.PremierLeague)
     } else if (leagueFilter === 'EFLChampionship') {
-      setTable(
-        Filtered.EFLChampionship.sort((a, b) => {
-          return a.position - b.position
-        })
-      )
+      setTable(Filtered.EFLChampionship)
     }
   }, [leagueFilter])
 
