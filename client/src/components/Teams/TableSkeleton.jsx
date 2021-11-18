@@ -6,16 +6,16 @@ const TableSkeleton = props => {
       <tr>
         <th className='px-1'>Pos</th>
         <th className='px-2'>Badge</th>
-        <th className='pr-56'>Club</th>
+        <th className='sm:pr-56 pr-10'>Club</th>
         <th className='px-2'>MP</th>
         <th className='px-2'>W</th>
         <th className='px-2'>D</th>
         <th className='px-2'>L</th>
-        <th className='px-2'>GF</th>
-        <th className='px-2'>GA</th>
-        <th className='px-2'>GD</th>
+        <th className='px-2 sm:table-cell hidden'>GF</th>
+        <th className='px-2 sm:table-cell hidden'>GA</th>
+        <th className='px-2  sm:table-cell hidden'>GD</th>
         <th className='px-2'>Pts</th>
-        <th className='px-8'>Form</th>
+        <th className='sm:inline  hidden'>Form</th>
       </tr>
       {props.children}
     </table>

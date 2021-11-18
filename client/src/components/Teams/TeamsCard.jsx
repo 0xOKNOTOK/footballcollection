@@ -17,13 +17,15 @@ const TeamsCard = ({ team }) => {
       <td className='text-center'>{team.all.win}</td>
       <td className='text-center'>{team.all.draw}</td>
       <td className='text-center'>{team.all.lose}</td>
-      <td className='text-center'>{team.all.goals.for}</td>
-      <td className='text-center'>{team.all.goals.against}</td>
-      <td className='text-center'>
+      <td className='text-center sm:table-cell hidden'>{team.all.goals.for}</td>
+      <td className='text-center sm:table-cell hidden'>
+        {team.all.goals.against}
+      </td>
+      <td className='text-center sm:table-cell hidden'>
         {team.all.goals.for - team.all.goals.against}
       </td>
       <td className='text-center'>{team.points}</td>
-      <td className='text-center'>{team.form}</td>
+      <td className='text-left  sm:table-cell hidden'>{team.form}</td>
     </tr>
   )
 }
