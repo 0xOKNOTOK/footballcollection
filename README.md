@@ -22,7 +22,7 @@ Currently unavailable in current build state...
 - [ ] Add filter functionality to change club, also when viewing from fixtures page or by id.
 - [ ] Generate league table and show clubs points, wins, draws, losses + GD.
 - [ ] Start building statistics page with graphs.
-- [ ] Split complicated components into smaller ones.
+- [x] Split complicated components into smaller ones.
 
 **Back-end:** 
 - [ ] Add data for remaining clubs (Might take a while).
