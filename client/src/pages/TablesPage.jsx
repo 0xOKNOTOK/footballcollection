@@ -35,7 +35,7 @@ const TeamsPage = () => {
     } else if (leagueFilter === 'EFLChampionship') {
       setTable(Filtered.EFLChampionship)
     }
-  }, [leagueFilter])
+  }, [leagueFilter, Filtered.PremierLeague, Filtered.EFLChampionship])
 
   const handleYearFilterChange = e => {
     e.preventDefault()

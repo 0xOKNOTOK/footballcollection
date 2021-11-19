@@ -17,7 +17,6 @@ const App = () => {
   const handleSearchChange = e => {
     e.preventDefault()
     setSearchBar(e.target.value)
-    console.log(searchBar)
   }
   return (
     <div>
