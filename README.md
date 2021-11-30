@@ -17,7 +17,7 @@ Currently unavailable in current build state...
 
 # Run Locally
 ```bash
-  git clone [https://github.com/rossgr/game-web-client.git]
+git clone [https://github.com/rossgr/game-web-client.git]
 ```
 
 ```bash
