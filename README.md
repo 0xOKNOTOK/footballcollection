@@ -15,6 +15,12 @@ Currently unavailable in current build state...
 
 **Server:** Node, Express & Postgres
 
+# Run Locally
+git clone [https://github.com/rossgr/footballcollection.git]
+cd footballcollection/
+nodemon server/index.js && cd .. & cd client/ && npm run start
+
+
 ## TODO
 
 **Front-end:** 
