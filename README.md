@@ -19,13 +19,13 @@ Currently unavailable in current build state...
 ```bash
   git clone [https://github.com/rossgr/game-web-client.git]
 ```
-```bash
-  git clone [https://github.com/rossgr/game-web-client.git]
-```
-```bash
-  git clone [https://github.com/rossgr/game-web-client.git]
-```
 
+```bash
+cd footballcollection/
+```
+```bash
+nodemon server/index.js && cd .. & cd client/ && npm run start
+```
 
 ## TODO
 
