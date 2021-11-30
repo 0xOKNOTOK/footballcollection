@@ -50,7 +50,7 @@ const TeamsPage = () => {
   return (
     <MainComponent>
       <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
-        <div className='container px-5 py-24 mx-auto flex-col align-center justify-items-center flex flex-wrap'>
+        <div className='container px-5 py-24 mx-auto flex-col flex flex-wrap items-center'>
           <Dropdown
             handleFilterChange={handleYearFilterChange}
             name={'Year: '}

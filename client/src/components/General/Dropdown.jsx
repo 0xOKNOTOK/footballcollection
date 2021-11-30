@@ -1,9 +1,8 @@
 import React from 'react'
 
 const Dropdown = ({ handleFilterChange, name, options }) => {
-  console.log(options)
   return (
-    <div>
+    <div className='mb-5'>
       <label for={name}>{name}</label>
       <select onChange={handleFilterChange} name={name} className={name}>
         {options.map(item => (

@@ -3,7 +3,7 @@ import React from 'react'
 const TeamsCard = ({ team }) => {
   console.log(team)
   return (
-    <tr className='text-gray-300'>
+    <tr className='text-gray-700 dark:text-gray-300'>
       <td className='text-center'> {team.position} </td>
       <td className=' mx-auto text-center justify-center'>
         <img

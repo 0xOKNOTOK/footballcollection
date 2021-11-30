@@ -15,7 +15,7 @@ Currently unavailable in current build state...
 
 **Server:** Node, Express & Postgres
 
-# Run Locally
+## Run Locally
 ```bash
 git clone [https://github.com/rossgr/game-web-client.git]
 ```
