@@ -32,7 +32,7 @@ nodemon server/index.js && cd .. & cd client/ && npm run start
 **Front-end:** 
 - [ ] Crop images for players on ClubPage.
 - [ ] Add filter functionality to change club, also when viewing from fixtures page or by id.
-- [ ] Generate league table and show clubs points, wins, draws, losses + GD.
+- [X] Generate league table and show clubs points, wins, draws, losses + GD.
 - [ ] Start building statistics page with graphs.
 - [x] Split complicated components into smaller ones.
 
