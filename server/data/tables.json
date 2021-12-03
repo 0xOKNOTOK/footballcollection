@@ -412,10 +412,11 @@
           "table": [
             {
               "id": 1,
-              "position": 1,
-              "name": "Newcastle United",
+              "position": 19,
+              "name": "Newcastle",
+              "fullName": "Newcastle United",
               "abbreviation": "NEW",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/newcastle_united.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -431,10 +432,11 @@
             },
             {
               "id": 2,
-              "position": 2,
-              "name": "Arsenal FC",
+              "position": 5,
+              "name": "Arsenal",
+              "fullName": "Arsenal FC",
               "abbreviation": "ARS",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/arsenal.webp",
               "points": 20,
               "form": "WWWDD",
               "all": {
@@ -450,10 +452,11 @@
             },
             {
               "id": 3,
-              "position": 3,
-              "name": "Aston Villa",
+              "position": 16,
+              "name": "Villa",
+              "fullName": "Aston Villa",
               "abbreviation": "VIL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/aston_villa.webp",
               "points": 10,
               "form": "LLLLL",
               "all": {
@@ -469,10 +472,11 @@
             },
             {
               "id": 4,
-              "position": 4,
-              "name": "Brentford FC",
+              "position": 14,
+              "name": "Brentford",
+              "fullName": "Brentford FC",
               "abbreviation": "BFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brentford.webp",
               "points": 12,
               "form": "LLLLW",
               "all": {
@@ -488,10 +492,11 @@
             },
             {
               "id": 5,
-              "position": 5,
-              "name": "Brighton & Hove Albion",
+              "position": 7,
+              "name": "Brighton",
+              "fullName": "Brighton & Hove Albion",
               "abbreviation": "BHA",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brighton.webp",
               "points": 17,
               "form": "DDLDD",
               "all": {
@@ -507,10 +512,11 @@
             },
             {
               "id": 6,
-              "position": 6,
-              "name": "Burnley FC",
+              "position": 18,
+              "name": "Burnley",
+              "fullName": "Burnley FC",
               "abbreviation": "BUR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/burnley.webp",
               "points": 8,
               "form": "DWDLD",
               "all": {
@@ -526,10 +532,11 @@
             },
             {
               "id": 7,
-              "position": 7,
-              "name": "Chelsea FC",
+              "position": 1,
+              "name": "Chelsea",
+              "fullName": "Chelsea FC",
               "abbreviation": "CFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/chelsea.webp",
               "points": 26,
               "form": "DWWWW",
               "all": {
@@ -545,10 +552,11 @@
             },
             {
               "id": 8,
-              "position": 8,
-              "name": "Crystal Palace",
+              "position": 10,
+              "name": "Palace",
+              "fullName": "Crystal Palace",
               "abbreviation": "PAL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/crystal_palace.webp",
               "points": 15,
               "form": "WWDDD",
               "all": {
@@ -564,10 +572,11 @@
             },
             {
               "id": 9,
-              "position": 9,
-              "name": "Everton FC",
+              "position": 11,
+              "name": "Everton",
+              "fullName": "Everton FC",
               "abbreviation": "EVE",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/everton.webp",
               "points": 15,
               "form": "DLLLD",
               "all": {
@@ -584,9 +593,10 @@
             {
               "id": 10,
               "position": 15,
-              "name": "Leeds United",
+              "name": "Leeds",
+              "fullName": "Leeds United",
               "abbreviation": "LUFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leeds_united.webp",
               "points": 11,
               "form": "DWDLW",
               "all": {
@@ -603,9 +613,10 @@
             {
               "id": 11,
               "position": 12,
-              "name": "Leicester City",
+              "name": "Leicester",
+              "fullName": "Leicester City",
               "abbreviation": "LCFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leicester_city.webp",
               "points": 15,
               "form": "DLWWD",
               "all": {
@@ -622,9 +633,10 @@
             {
               "id": 12,
               "position": 4,
-              "name": "Liverpool FC",
+              "name": "Liverpool",
+              "fullName": "Liverpool FC",
               "abbreviation": "LFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/liverpool.webp",
               "points": 22,
               "form": "LDWWD",
               "all": {
@@ -641,9 +653,10 @@
             {
               "id": 13,
               "position": 2,
-              "name": "Manchester City Football Club",
+              "name": "Man City",
+              "fullName": "Manchester City FC",
               "abbreviation": "MCI",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_city.webp",
               "points": 23,
               "form": "WLWWD",
               "all": {
@@ -660,9 +673,10 @@
             {
               "id": 14,
               "position": 6,
-              "name": "Manchester United",
+              "name": "Man Utd",
+              "fullName": "Manchester United",
               "abbreviation": "MNU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_united.webp",
               "points": 17,
               "form": "LWLLD",
               "all": {
@@ -679,9 +693,10 @@
             {
               "id": 15,
               "position": 20,
-              "name": "Norwich City",
+              "name": "Norwich",
+              "fullName": "Norwich City",
               "abbreviation": "NOR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/norwich_city.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -698,9 +713,10 @@
             {
               "id": 16,
               "position": 13,
-              "name": "Southampton FC",
+              "name": "Southampton",
+              "fullName": "Southampton FC",
               "abbreviation": "SOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/southampton.webp",
               "points": 14,
               "form": "WWDWL",
               "all": {
@@ -717,9 +733,10 @@
             {
               "id": 17,
               "position": 9,
-              "name": "Tottenham Hotspur",
+              "name": "Spurs",
+              "fullName": "Tottenham Hotspur",
               "abbreviation": "TOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/tottenham_hotspur.webp",
               "points": 16,
               "form": "DLLWW",
               "all": {
@@ -736,9 +753,10 @@
             {
               "id": 18,
               "position": 17,
-              "name": "Watford FC",
+              "name": "Watford",
+              "fullName": "Watford FC",
               "abbreviation": "WAT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/watford.webp",
               "points": 10,
               "form": "LLWLL",
               "all": {
@@ -755,9 +773,10 @@
             {
               "id": 19,
               "position": 3,
-              "name": "West Ham United",
+              "name": "West Ham",
+              "fullName": "West Ham United",
               "abbreviation": "WHU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/west_ham.webp",
               "points": 23,
               "form": "WWWWL",
               "all": {
@@ -774,9 +793,10 @@
             {
               "id": 20,
               "position": 8,
-              "name": "Wolverhampton Wanderers",
+              "name": "Wolves",
+              "fullName": "Wolverhampton Wanderers",
               "abbreviation": "WOL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/wolves.webp",
               "points": 16,
               "form": "LWDWW",
               "all": {
@@ -798,9 +818,10 @@
             {
               "id": 1,
               "position": 19,
-              "name": "Newcastle United",
+              "name": "Newcastle",
+              "fullName": "Newcastle United",
               "abbreviation": "NEW",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/newcastle_united.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -817,9 +838,10 @@
             {
               "id": 2,
               "position": 5,
-              "name": "Arsenal FC",
+              "name": "Arsenal",
+              "fullName": "Arsenal FC",
               "abbreviation": "ARS",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/arsenal.webp",
               "points": 20,
               "form": "WWWDD",
               "all": {
@@ -836,9 +858,10 @@
             {
               "id": 3,
               "position": 16,
-              "name": "Aston Villa",
+              "name": "Villa",
+              "fullName": "Aston Villa",
               "abbreviation": "VIL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/aston_villa.webp",
               "points": 10,
               "form": "LLLLL",
               "all": {
@@ -855,9 +878,10 @@
             {
               "id": 4,
               "position": 14,
-              "name": "Brentford FC",
+              "name": "Brentford",
+              "fullName": "Brentford FC",
               "abbreviation": "BFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brentford.webp",
               "points": 12,
               "form": "LLLLW",
               "all": {
@@ -874,9 +898,10 @@
             {
               "id": 5,
               "position": 7,
-              "name": "Brighton & Hove Albion",
+              "name": "Brighton",
+              "fullName": "Brighton & Hove Albion",
               "abbreviation": "BHA",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brighton.webp",
               "points": 17,
               "form": "DDLDD",
               "all": {
@@ -893,9 +918,10 @@
             {
               "id": 6,
               "position": 18,
-              "name": "Burnley FC",
+              "name": "Burnley",
+              "fullName": "Burnley FC",
               "abbreviation": "BUR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/burnley.webp",
               "points": 8,
               "form": "DWDLD",
               "all": {
@@ -912,9 +938,10 @@
             {
               "id": 7,
               "position": 1,
-              "name": "Chelsea FC",
+              "name": "Chelsea",
+              "fullName": "Chelsea FC",
               "abbreviation": "CFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/chelsea.webp",
               "points": 26,
               "form": "DWWWW",
               "all": {
@@ -931,9 +958,10 @@
             {
               "id": 8,
               "position": 10,
-              "name": "Crystal Palace",
+              "name": "Palace",
+              "fullName": "Crystal Palace",
               "abbreviation": "PAL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/crystal_palace.webp",
               "points": 15,
               "form": "WWDDD",
               "all": {
@@ -950,9 +978,10 @@
             {
               "id": 9,
               "position": 11,
-              "name": "Everton FC",
+              "name": "Everton",
+              "fullName": "Everton FC",
               "abbreviation": "EVE",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/everton.webp",
               "points": 15,
               "form": "DLLLD",
               "all": {
@@ -969,9 +998,10 @@
             {
               "id": 10,
               "position": 15,
-              "name": "Leeds United",
+              "name": "Leeds",
+              "fullName": "Leeds United",
               "abbreviation": "LUFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leeds_united.webp",
               "points": 11,
               "form": "DWDLW",
               "all": {
@@ -988,9 +1018,10 @@
             {
               "id": 11,
               "position": 12,
-              "name": "Leicester City",
+              "name": "Leicester",
+              "fullName": "Leicester City",
               "abbreviation": "LCFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leicester_city.webp",
               "points": 15,
               "form": "DLWWD",
               "all": {
@@ -1007,9 +1038,10 @@
             {
               "id": 12,
               "position": 4,
-              "name": "Liverpool FC",
+              "name": "Liverpool",
+              "fullName": "Liverpool FC",
               "abbreviation": "LFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/liverpool.webp",
               "points": 22,
               "form": "LDWWD",
               "all": {
@@ -1026,9 +1058,10 @@
             {
               "id": 13,
               "position": 2,
-              "name": "Manchester City Football Club",
+              "name": "Man City",
+              "fullName": "Manchester City FC",
               "abbreviation": "MCI",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_city.webp",
               "points": 23,
               "form": "WLWWD",
               "all": {
@@ -1045,9 +1078,10 @@
             {
               "id": 14,
               "position": 6,
-              "name": "Manchester United",
+              "name": "Man Utd",
+              "fullName": "Manchester United",
               "abbreviation": "MNU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_united.webp",
               "points": 17,
               "form": "LWLLD",
               "all": {
@@ -1064,9 +1098,10 @@
             {
               "id": 15,
               "position": 20,
-              "name": "Norwich City",
+              "name": "Norwich",
+              "fullName": "Norwich City",
               "abbreviation": "NOR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/norwich_city.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -1083,9 +1118,10 @@
             {
               "id": 16,
               "position": 13,
-              "name": "Southampton FC",
+              "name": "Southampton",
+              "fullName": "Southampton FC",
               "abbreviation": "SOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/southampton.webp",
               "points": 14,
               "form": "WWDWL",
               "all": {
@@ -1102,9 +1138,10 @@
             {
               "id": 17,
               "position": 9,
-              "name": "Tottenham Hotspur",
+              "name": "Spurs",
+              "fullName": "Tottenham Hotspur",
               "abbreviation": "TOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/tottenham_hotspur.webp",
               "points": 16,
               "form": "DLLWW",
               "all": {
@@ -1121,9 +1158,10 @@
             {
               "id": 18,
               "position": 17,
-              "name": "Watford FC",
+              "name": "Watford",
+              "fullName": "Watford FC",
               "abbreviation": "WAT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/watford.webp",
               "points": 10,
               "form": "LLWLL",
               "all": {
@@ -1140,9 +1178,10 @@
             {
               "id": 19,
               "position": 3,
-              "name": "West Ham United",
+              "name": "West Ham",
+              "fullName": "West Ham United",
               "abbreviation": "WHU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/west_ham.webp",
               "points": 23,
               "form": "WWWWL",
               "all": {
@@ -1159,9 +1198,10 @@
             {
               "id": 20,
               "position": 8,
-              "name": "Wolverhampton Wanderers",
+              "name": "Wolves",
+              "fullName": "Wolverhampton Wanderers",
               "abbreviation": "WOL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/wolves.webp",
               "points": 16,
               "form": "LWDWW",
               "all": {
@@ -1183,9 +1223,10 @@
             {
               "id": 1,
               "position": 19,
-              "name": "Newcastle United",
+              "name": "Newcastle",
+              "fullName": "Newcastle United",
               "abbreviation": "NEW",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/newcastle_united.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -1202,9 +1243,10 @@
             {
               "id": 2,
               "position": 5,
-              "name": "Arsenal FC",
+              "name": "Arsenal",
+              "fullName": "Arsenal FC",
               "abbreviation": "ARS",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/arsenal.webp",
               "points": 20,
               "form": "WWWDD",
               "all": {
@@ -1221,9 +1263,10 @@
             {
               "id": 3,
               "position": 16,
-              "name": "Aston Villa",
+              "name": "Villa",
+              "fullName": "Aston Villa",
               "abbreviation": "VIL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/aston_villa.webp",
               "points": 10,
               "form": "LLLLL",
               "all": {
@@ -1240,9 +1283,10 @@
             {
               "id": 4,
               "position": 14,
-              "name": "Brentford FC",
+              "name": "Brentford",
+              "fullName": "Brentford FC",
               "abbreviation": "BFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brentford.webp",
               "points": 12,
               "form": "LLLLW",
               "all": {
@@ -1259,9 +1303,10 @@
             {
               "id": 5,
               "position": 7,
-              "name": "Brighton & Hove Albion",
+              "name": "Brighton",
+              "fullName": "Brighton & Hove Albion",
               "abbreviation": "BHA",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brighton.webp",
               "points": 17,
               "form": "DDLDD",
               "all": {
@@ -1278,9 +1323,10 @@
             {
               "id": 6,
               "position": 18,
-              "name": "Burnley FC",
+              "name": "Burnley",
+              "fullName": "Burnley FC",
               "abbreviation": "BUR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/burnley.webp",
               "points": 8,
               "form": "DWDLD",
               "all": {
@@ -1297,9 +1343,10 @@
             {
               "id": 7,
               "position": 1,
-              "name": "Chelsea FC",
+              "name": "Chelsea",
+              "fullName": "Chelsea FC",
               "abbreviation": "CFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/chelsea.webp",
               "points": 26,
               "form": "DWWWW",
               "all": {
@@ -1316,9 +1363,10 @@
             {
               "id": 8,
               "position": 10,
-              "name": "Crystal Palace",
+              "name": "Palace",
+              "fullName": "Crystal Palace",
               "abbreviation": "PAL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/crystal_palace.webp",
               "points": 15,
               "form": "WWDDD",
               "all": {
@@ -1335,9 +1383,10 @@
             {
               "id": 9,
               "position": 11,
-              "name": "Everton FC",
+              "name": "Everton",
+              "fullName": "Everton FC",
               "abbreviation": "EVE",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/everton.webp",
               "points": 15,
               "form": "DLLLD",
               "all": {
@@ -1354,9 +1403,10 @@
             {
               "id": 10,
               "position": 15,
-              "name": "Leeds United",
+              "name": "Leeds",
+              "fullName": "Leeds United",
               "abbreviation": "LUFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leeds_united.webp",
               "points": 11,
               "form": "DWDLW",
               "all": {
@@ -1373,9 +1423,10 @@
             {
               "id": 11,
               "position": 12,
-              "name": "Leicester City",
+              "name": "Leicester",
+              "fullName": "Leicester City",
               "abbreviation": "LCFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leicester_city.webp",
               "points": 15,
               "form": "DLWWD",
               "all": {
@@ -1392,9 +1443,10 @@
             {
               "id": 12,
               "position": 4,
-              "name": "Liverpool FC",
+              "name": "Liverpool",
+              "fullName": "Liverpool FC",
               "abbreviation": "LFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/liverpool.webp",
               "points": 22,
               "form": "LDWWD",
               "all": {
@@ -1411,9 +1463,10 @@
             {
               "id": 13,
               "position": 2,
-              "name": "Manchester City FC",
+              "name": "Man City",
+              "fullName": "Manchester City FC",
               "abbreviation": "MCI",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_city.webp",
               "points": 23,
               "form": "WLWWD",
               "all": {
@@ -1430,9 +1483,10 @@
             {
               "id": 14,
               "position": 6,
-              "name": "Manchester United",
+              "name": "Man Utd",
+              "fullName": "Manchester United",
               "abbreviation": "MNU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_united.webp",
               "points": 17,
               "form": "LWLLD",
               "all": {
@@ -1449,9 +1503,10 @@
             {
               "id": 15,
               "position": 20,
-              "name": "Norwich City",
+              "name": "Norwich",
+              "fullName": "Norwich City",
               "abbreviation": "NOR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/norwich_city.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -1468,9 +1523,10 @@
             {
               "id": 16,
               "position": 13,
-              "name": "Southampton FC",
+              "name": "Southampton",
+              "fullName": "Southampton FC",
               "abbreviation": "SOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/southampton.webp",
               "points": 14,
               "form": "WWDWL",
               "all": {
@@ -1487,9 +1543,10 @@
             {
               "id": 17,
               "position": 9,
-              "name": "Tottenham Hotspur",
+              "name": "Spurs",
+              "fullName": "Tottenham Hotspur",
               "abbreviation": "TOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/tottenham_hotspur.webp",
               "points": 16,
               "form": "DLLWW",
               "all": {
@@ -1506,9 +1563,10 @@
             {
               "id": 18,
               "position": 17,
-              "name": "Watford FC",
+              "name": "Watford",
+              "fullName": "Watford FC",
               "abbreviation": "WAT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/watford.webp",
               "points": 10,
               "form": "LLWLL",
               "all": {
@@ -1525,9 +1583,10 @@
             {
               "id": 19,
               "position": 3,
-              "name": "West Ham United",
+              "name": "West Ham",
+              "fullName": "West Ham United",
               "abbreviation": "WHU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/west_ham.webp",
               "points": 23,
               "form": "WWWWL",
               "all": {
@@ -1544,9 +1603,10 @@
             {
               "id": 20,
               "position": 8,
-              "name": "Wolverhampton Wanderers",
+              "name": "Wolves",
+              "fullName": "Wolverhampton Wanderers",
               "abbreviation": "WOL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/wolves.webp",
               "points": 16,
               "form": "LWDWW",
               "all": {
@@ -1568,9 +1628,10 @@
             {
               "id": 1,
               "position": 19,
-              "name": "Newcastle United",
+              "name": "Newcastle",
+              "fullName": "Newcastle United",
               "abbreviation": "NEW",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/newcastle_united.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -1587,9 +1648,10 @@
             {
               "id": 2,
               "position": 5,
-              "name": "Arsenal FC",
+              "name": "Arsenal",
+              "fullName": "Arsenal FC",
               "abbreviation": "ARS",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/arsenal.webp",
               "points": 20,
               "form": "WWWDD",
               "all": {
@@ -1606,9 +1668,10 @@
             {
               "id": 3,
               "position": 16,
-              "name": "Aston Villa",
+              "name": "Villa",
+              "fullName": "Aston Villa",
               "abbreviation": "VIL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/aston_villa.webp",
               "points": 10,
               "form": "LLLLL",
               "all": {
@@ -1625,9 +1688,10 @@
             {
               "id": 4,
               "position": 14,
-              "name": "Brentford FC",
+              "name": "Brentford",
+              "fullName": "Brentford FC",
               "abbreviation": "BFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brentford.webp",
               "points": 12,
               "form": "LLLLW",
               "all": {
@@ -1644,9 +1708,10 @@
             {
               "id": 5,
               "position": 7,
-              "name": "Brighton & Hove Albion",
+              "name": "Brighton",
+              "fullName": "Brighton & Hove Albion",
               "abbreviation": "BHA",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/brighton.webp",
               "points": 17,
               "form": "DDLDD",
               "all": {
@@ -1663,9 +1728,10 @@
             {
               "id": 6,
               "position": 18,
-              "name": "Burnley FC",
+              "name": "Burnley",
+              "fullName": "Burnley FC",
               "abbreviation": "BUR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/burnley.webp",
               "points": 8,
               "form": "DWDLD",
               "all": {
@@ -1682,9 +1748,10 @@
             {
               "id": 7,
               "position": 1,
-              "name": "Chelsea FC",
+              "name": "Chelsea",
+              "fullName": "Chelsea FC",
               "abbreviation": "CFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/chelsea.webp",
               "points": 26,
               "form": "DWWWW",
               "all": {
@@ -1701,9 +1768,10 @@
             {
               "id": 8,
               "position": 10,
-              "name": "Crystal Palace",
+              "name": "Palace",
+              "fullName": "Crystal Palace",
               "abbreviation": "PAL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/crystal_palace.webp",
               "points": 15,
               "form": "WWDDD",
               "all": {
@@ -1720,9 +1788,10 @@
             {
               "id": 9,
               "position": 11,
-              "name": "Everton FC",
+              "name": "Everton",
+              "fullName": "Everton FC",
               "abbreviation": "EVE",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/everton.webp",
               "points": 15,
               "form": "DLLLD",
               "all": {
@@ -1739,9 +1808,10 @@
             {
               "id": 10,
               "position": 15,
-              "name": "Leeds United",
+              "name": "Leeds",
+              "fullName": "Leeds United",
               "abbreviation": "LUFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leeds_united.webp",
               "points": 11,
               "form": "DWDLW",
               "all": {
@@ -1758,9 +1828,10 @@
             {
               "id": 11,
               "position": 12,
-              "name": "Leicester City",
+              "name": "Leicester",
+              "fullName": "Leicester City",
               "abbreviation": "LCFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/leicester_city.webp",
               "points": 15,
               "form": "DLWWD",
               "all": {
@@ -1777,9 +1848,10 @@
             {
               "id": 12,
               "position": 4,
-              "name": "Liverpool FC",
+              "name": "Liverpool",
+              "fullName": "Liverpool FC",
               "abbreviation": "LFC",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/liverpool.webp",
               "points": 22,
               "form": "LDWWD",
               "all": {
@@ -1796,9 +1868,10 @@
             {
               "id": 13,
               "position": 2,
-              "name": "Manchester City Football Club",
+              "name": "Man City",
+              "fullName": "Manchester City FC",
               "abbreviation": "MCI",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_city.webp",
               "points": 23,
               "form": "WLWWD",
               "all": {
@@ -1815,9 +1888,10 @@
             {
               "id": 14,
               "position": 6,
-              "name": "Manchester United",
+              "name": "Man Utd",
+              "fullName": "Manchester United",
               "abbreviation": "MNU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/manchester_united.webp",
               "points": 17,
               "form": "LWLLD",
               "all": {
@@ -1834,9 +1908,10 @@
             {
               "id": 15,
               "position": 20,
-              "name": "Norwich City",
+              "name": "Norwich",
+              "fullName": "Norwich City",
               "abbreviation": "NOR",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/norwich_city.webp",
               "points": 5,
               "form": "WLLDD",
               "all": {
@@ -1853,9 +1928,10 @@
             {
               "id": 16,
               "position": 13,
-              "name": "Southampton FC",
+              "name": "Southampton",
+              "fullName": "Southampton FC",
               "abbreviation": "SOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/southampton.webp",
               "points": 14,
               "form": "WWDWL",
               "all": {
@@ -1872,9 +1948,10 @@
             {
               "id": 17,
               "position": 9,
-              "name": "Tottenham Hotspur",
+              "name": "Spurs",
+              "fullName": "Tottenham Hotspur",
               "abbreviation": "TOT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/tottenham_hotspur.webp",
               "points": 16,
               "form": "DLLWW",
               "all": {
@@ -1891,9 +1968,10 @@
             {
               "id": 18,
               "position": 17,
-              "name": "Watford FC",
+              "name": "Watford",
+              "fullName": "Watford FC",
               "abbreviation": "WAT",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/watford.webp",
               "points": 10,
               "form": "LLWLL",
               "all": {
@@ -1910,9 +1988,10 @@
             {
               "id": 19,
               "position": 3,
-              "name": "West Ham United",
+              "name": "West Ham",
+              "fullName": "West Ham United",
               "abbreviation": "WHU",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/west_ham.webp",
               "points": 23,
               "form": "WWWWL",
               "all": {
@@ -1929,9 +2008,10 @@
             {
               "id": 20,
               "position": 8,
-              "name": "Wolverhampton Wanderers",
+              "name": "Wolves",
+              "fullName": "Wolverhampton Wanderers",
               "abbreviation": "WOL",
-              "clubCrest": "",
+              "clubCrest": "/cdn/images/badges/wolves.webp",
               "points": 16,
               "form": "LWDWW",
               "all": {
