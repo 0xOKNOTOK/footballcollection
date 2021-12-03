@@ -6,7 +6,7 @@ import TableSkeleton from '../components/Teams/TableSkeleton'
 
 import TeamsCard from '../components/Teams/TeamsCard'
 import TeamsPosition from '../components/Teams/TeamsPosition'
-import FixtureContext from '../hooks/fixtureDataContext'
+import FixtureContext from '../hooks/tableDataContext'
 
 const TeamsPage = () => {
   const [filter, setFilter] = useState('2021/22')
@@ -49,14 +49,16 @@ const TeamsPage = () => {
 
   return (
     <MainComponent>
-      <section className='text-gray-600 bg-white dark:bg-gray-900 body-font'>
+      <section className='text-gray-600  dark:bg-gray-900 body-font'>
         <div className='container px-5 py-24 mx-auto flex-col flex flex-wrap items-center'>
           <Dropdown
+            className='text-gray-700 dark:text-gray-400'
             handleFilterChange={handleYearFilterChange}
             name={'Year: '}
             options={DropdownYearOptions}
           />
           <Dropdown
+            className='text-gray-700 dark:text-gray-400'
             options={DropdownLeagueOptions}
             name={'League: '}
             handleFilterChange={handleLeagueFilterChange}

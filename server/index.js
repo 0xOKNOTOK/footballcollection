@@ -14,12 +14,12 @@ app.use(cors())
 
 // Route files
 const teamsRouter = require('./routes/teams')
-const fixturesRouter = require('./routes/fixtures')
+const tablesRouter = require('./routes/tables')
 
 // Mount Routes For Use
 
 app.use('/api/teams', teamsRouter)
-app.use('/api/fixtures', fixturesRouter)
+app.use('/api/tables', tablesRouter)
 
 app.listen(PORT, () =>
   console.log(`Football Collection API live on port: ${PORT}.`)

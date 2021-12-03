@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import { FixturesProvider } from '../../hooks/fixtureDataContext'
+import { TableProvider } from '../../hooks/tableDataContext'
 
-const FixturesContainer = props => {
-  const [fixturesData, setFixturesData] = useState({})
+const TableContainer = props => {
+  const [TableData, setTableData] = useState({})
   const [error, setError] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
   useEffect(() => {
-    fetch('/api/fixtures/')
+    fetch('/api/tables/')
       .then(res => res.json())
       .then(
         result => {
           setIsLoaded(true)
-          setFixturesData(result)
+          setTableData(result)
         },
         error => {
           setIsLoaded(true)
@@ -23,17 +23,15 @@ const FixturesContainer = props => {
     return <div>Error: {error.message}</div>
   } else if (!isLoaded) {
     return <div>Loading...</div>
-  } else if (Object.keys(fixturesData).length === 0) {
+  } else if (Object.keys(TableData).length === 0) {
     return <div> Loading...</div>
   } else {
     return (
       <div>
-        <FixturesProvider value={fixturesData}>
-          {props.children}
-        </FixturesProvider>
+        <TableProvider value={TableData}>{props.children}</TableProvider>
       </div>
     )
   }
 }
 
-export default FixturesContainer
+export default TableContainer
