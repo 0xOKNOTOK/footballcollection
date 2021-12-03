@@ -1,7 +1,6 @@
 import React from 'react'
 
 const TeamsCard = ({ team }) => {
-  console.log(team)
   return (
     <tr className='text-gray-700 dark:text-gray-300'>
       <td className='text-center'> {team.position} </td>
@@ -10,7 +9,7 @@ const TeamsCard = ({ team }) => {
           className='w-7 mx-auto'
           src={team.clubCrest}
           alt={team.name + ' badge'}
-        />{' '}
+        />
       </td>
       <td className=''> {team.name} </td>
       <td className='text-center'>{team.all.played}</td>
