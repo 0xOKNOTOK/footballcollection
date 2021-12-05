@@ -8,7 +8,196 @@
           "abbreviation": "NEW",
           "clubCrest": "",
           "manager": "Eddie Howe",
-          "players": [{ "name": "David" }],
+          "players": [ {
+            "name": "Karl Darlow",
+            "photo": "/cdn/images/players/karl_darlow.png",
+            "position": "Goalkeeper",
+            "number": "26",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Martin Dubravka",
+            "photo": "/cdn/images/players/martin_dubravka.png",
+            "position": "Goalkeeper",
+            "number": "1",
+            "onLoan": false,
+            "nationality": "Slovakia"
+          }, {
+            "name": "Mark Gillespie",
+            "photo": "/cdn/images/players/mark_gillespie.png",
+            "position": "Goalkeeper",
+            "number": "29",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Dan Langley",
+            "photo": "/cdn/images/players/dan_langley.png",
+            "position": "Goalkeeper",
+            "number": "33",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Freddie Woodman",
+            "photo": "/cdn/images/players/freddie_woodman.png",
+            "position": "Goalkeeper",
+            "number": "27",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Ciaran Clark",
+            "photo": "/cdn/images/players/ciaran_clark.png",
+            "position": "Defender",
+            "number": "2",
+            "onLoan": false,
+            "nationality": "Ireland"
+          }, {
+            "name": "Paul Dummett",
+            "photo": "/cdn/images/players/paul_dummett.png",
+            "position": "Defender",
+            "number": "3",
+            "onLoan": false,
+            "nationality": "Wales"
+          }, {
+            "name": "Federico Fernandez",
+            "photo": "/cdn/images/players/federico_fernandez.png",
+            "position": "Defender",
+            "number": "18",
+            "onLoan": false,
+            "nationality": "Argentina"
+          }, {
+            "name": "Emil Krafth",
+            "photo": "/cdn/images/players/emil_krafth.png",
+            "position": "Defender",
+            "number": "17",
+            "onLoan": false,
+            "nationality": "Sweden"
+          }, {
+            "name": "Jamaal Lascelles",
+            "photo": "/cdn/images/players/jamaal_lascelles.png",
+            "position": "Defender",
+            "number": "6",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Jamal Lewis",
+            "photo": "/cdn/images/players/jamal_lewis.png",
+            "position": "Defender",
+            "number": "12",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Javier Manquillo",
+            "photo": "/cdn/images/players/javier_manquillo.png",
+            "position": "Defender",
+            "number": "19",
+            "onLoan": false,
+            "nationality": "Spain"
+          }, {
+            "name": "Jacob Murphy",
+            "photo": "/cdn/images/players/jacob_murphy.png",
+            "position": "Defender",
+            "number": "23",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Matt Ritchie",
+            "photo": "/cdn/images/players/matt_ritchie.png",
+            "position": "Defender",
+            "number": "11",
+            "onLoan": false,
+            "nationality": "Scotland"
+          }, {
+            "name": "Fabian Schar",
+            "photo": "/cdn/images/players/fabian_schar.png",
+            "position": "Defender",
+            "number": "5",
+            "onLoan": false,
+            "nationality": "Switzerland"
+          }, {
+            "name": "Miguel Almiron",
+            "photo": "/cdn/images/players/miguel_almiron.png",
+            "position": "Midfielder",
+            "number": "24",
+            "onLoan": false,
+            "nationality": "Paraguay"
+          }, {
+            "name": "Elliot Anderson",
+            "photo": "/cdn/images/players/elliot_anderson.png",
+            "position": "Midfielder",
+            "number": "32",
+            "onLoan": false,
+            "nationality": "Scotland"
+          }, {
+            "name": "Ryan Fraser",
+            "photo": "/cdn/images/players/ryan_fraser.png",
+            "position": "Midfielder",
+            "number": "21",
+            "onLoan": false,
+            "nationality": "Scotland"
+          }, {
+            "name": "Isaac Hayden",
+            "photo": "/cdn/images/players/isaac_hayden.png",
+            "position": "Midfielder",
+            "number": "14",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Jeff Hendrick",
+            "photo": "/cdn/images/players/jeff_hendrick.png",
+            "position": "Midfielder",
+            "number": "16",
+            "onLoan": false,
+            "nationality": "Ireland"
+          }, {
+            "name": "Sean Longstaff",
+            "photo": "/cdn/images/players/sean_longstaff.png",
+            "position": "Midfielder",
+            "number": "36",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Jonjo Shelvey",
+            "photo": "/cdn/images/players/jonjo_shelvey.png",
+            "position": "Midfielder",
+            "number": "8",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Joe Willock",
+            "photo": "/cdn/images/players/joe_willock.png",
+            "position": "Midfielder",
+            "number": "28",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Joelinton",
+            "photo": "/cdn/images/players/joelinton.png",
+            "position": "Forward",
+            "number": "7",
+            "onLoan": false,
+            "nationality": "Brazil"
+          }, {
+            "name": "Dwight Gayle",
+            "photo": "/cdn/images/players/dwight_gayle.png",
+            "position": "Forward",
+            "number": "34",
+            "onLoan": false,
+            "nationality": "England"
+          }, {
+            "name": "Allan Saint-Maximin",
+            "photo": "/cdn/images/players/allan_saint_maximin.png",
+            "position": "Forward",
+            "number": "10",
+            "onLoan": false,
+            "nationality": "France"
+          }, {
+            "name": "Callum Wilson",
+            "photo": "/cdn/images/players/callum_wilson.png",
+            "position": "Forward",
+            "number": "9",
+            "onLoan": false,
+            "nationality": "England"
+          }],
           "stadium": "St James Park"
         },
         {
@@ -117,8 +306,8 @@
           "clubCrest": "",
           "manager": {
             "name": "Josep Guardiola",
-            "nationality": "Spain",
-            "joined": "1 JULY 2016"
+            "nationality": "Spain"
+
           },
           "players": [
             {
@@ -127,8 +316,7 @@
               "position": "Goalkeeper",
               "number": "31",
               "onLoan": false,
-              "nationality": "Brazilian",
-              "joined": "1 JULY 2017"
+              "nationality": "Brazil"
             },
             {
               "name": "Zack Steffen",
@@ -136,8 +324,7 @@
               "position": "Goalkeeper",
               "number": "13",
               "onLoan": false,
-              "nationality": "United States",
-              "joined": "1 JULY 2019"
+              "nationality": "United States"
             },
             {
               "name": "Scott Carson",
@@ -145,8 +332,7 @@
               "position": "Goalkeeper",
               "number": "33",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "8 AUGUST 2019"
+              "nationality": "England"
             },
             {
               "name": "Arijanet Muric",
@@ -154,8 +340,7 @@
               "position": "Goalkeeper",
               "number": "49",
               "onLoan": true,
-              "nationality": "Kosovo",
-              "joined": "1 JULY 2017"
+              "nationality": "Kosovo"
             },
             {
               "name": "Kyle Walker",
@@ -163,8 +348,7 @@
               "position": "Defender",
               "number": "2",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "14 JULY 2017"
+              "nationality": "England"
             },
             {
               "name": "Ruben Dias",
@@ -172,8 +356,7 @@
               "position": "Defender",
               "number": "3",
               "onLoan": false,
-              "nationality": "Portual",
-              "joined": "29 SEPTEMBER 2020"
+              "nationality": "Portual"
             },
             {
               "name": "Aymeric Laporte",
@@ -181,8 +364,7 @@
               "position": "Defender",
               "number": "14",
               "onLoan": false,
-              "nationality": "Spain",
-              "joined": "29 SEPTEMBER 2020"
+              "nationality": "Spain"
             },
             {
               "name": "John Stones",
@@ -190,8 +372,7 @@
               "position": "Defender",
               "number": "5",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "9 AUGUST 2016"
+              "nationality": "England"
             },
             {
               "name": "Nathan Ake",
@@ -199,8 +380,7 @@
               "position": "Defender",
               "number": "6",
               "onLoan": false,
-              "nationality": "Netherlands",
-              "joined": "5 AUGUST 2020"
+              "nationality": "Netherlands"
             },
             {
               "name": "Joao Cancelo",
@@ -208,8 +388,7 @@
               "position": "Defender",
               "number": "27",
               "onLoan": false,
-              "nationality": "Portugal",
-              "joined": "7 AUGUST 2019"
+              "nationality": "Portugal"
             },
             {
               "name": "Oleksandr Zinchenko",
@@ -217,8 +396,7 @@
               "position": "Defender",
               "number": "11",
               "onLoan": false,
-              "nationality": "Ukraine",
-              "joined": "4 JUNE 2016"
+              "nationality": "Ukraine"
             },
             {
               "name": "Phillipe Sandler",
@@ -226,8 +404,7 @@
               "position": "Defender",
               "number": "34",
               "onLoan": true,
-              "nationality": "Netherlands",
-              "joined": "26 OCTOBER 2018"
+              "nationality": "Netherlands"
             },
             {
               "name": "Ilkay Gundogan",
@@ -235,8 +412,7 @@
               "position": "Midfielder",
               "number": "8",
               "onLoan": false,
-              "nationality": "Germany",
-              "joined": "1 JULY 2016"
+              "nationality": "Germany"
             },
             {
               "name": "Jack Grealish",
@@ -244,8 +420,7 @@
               "position": "Midfielder",
               "number": "10",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "5 AUGUST 2021"
+              "nationality": "England"
             },
             {
               "name": "Phil Foden",
@@ -253,8 +428,7 @@
               "position": "Midfielder",
               "number": "47",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "1 JULY 2016"
+              "nationality": "England"
             },
             {
               "name": "Cole Palmer",
@@ -262,8 +436,7 @@
               "position": "Midfielder",
               "number": "80",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "24 APRIL 2018"
+              "nationality": "England"
             },
             {
               "name": "Patrick Roberts",
@@ -271,8 +444,7 @@
               "position": "Midfielder",
               "number": "N/A",
               "onLoan": true,
-              "nationality": "England",
-              "joined": "19 JULY 2015"
+              "nationality": "England"
             },
             {
               "name": "Rodrigo",
@@ -280,8 +452,7 @@
               "position": "Midfielder",
               "number": "16",
               "onLoan": false,
-              "nationality": "Spain",
-              "joined": "4 JULY 2019"
+              "nationality": "Spain"
             },
             {
               "name": "Kevin De Bruyne",
@@ -289,8 +460,7 @@
               "position": "Midfielder",
               "number": "17",
               "onLoan": false,
-              "nationality": "Belgium",
-              "joined": "30 AUGUST 2015"
+              "nationality": "Belgium"
             },
             {
               "name": "Fernandinho",
@@ -298,8 +468,7 @@
               "position": "Midfielder",
               "number": "25",
               "onLoan": false,
-              "nationality": "Brazilian",
-              "joined": "1 JULY 2013"
+              "nationality": "Brazilian"
             },
             {
               "name": "Bernardo Silva",
@@ -307,8 +476,7 @@
               "position": "Midfielder",
               "number": "20",
               "onLoan": false,
-              "nationality": "Portugal",
-              "joined": "1 JULY 2017"
+              "nationality": "Portugal"
             },
             {
               "name": "Raheem Sterling",
@@ -316,8 +484,7 @@
               "position": "Forward",
               "number": "7",
               "onLoan": false,
-              "nationality": "England",
-              "joined": "14 JULY 2015"
+              "nationality": "England"
             },
             {
               "name": "Gabriel Jesus",
@@ -325,8 +492,7 @@
               "position": "Forward",
               "number": "9",
               "onLoan": false,
-              "nationality": "Brazilian",
-              "joined": "3 AUGUST 2016"
+              "nationality": "Brazilian"
             },
             {
               "name": "Ferran Torres",
@@ -334,8 +500,7 @@
               "position": "Forward",
               "number": "21",
               "onLoan": false,
-              "nationality": "Spain",
-              "joined": "4 AUGUST 2020"
+              "nationality": "Spain"
             },
             {
               "name": "Riyad Mahrez",
@@ -343,8 +508,7 @@
               "position": "Forward",
               "number": "26",
               "onLoan": false,
-              "nationality": "Algeria",
-              "joined": "10 JULY 2018"
+              "nationality": "Algeria"
             }
           ],
           "stadium": "Etihad Stadium"
