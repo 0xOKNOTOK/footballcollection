@@ -16,9 +16,9 @@ Currently unavailable in current build state...
 **Server:** Node, Express & Postgres
 
 ## Run Locally
-
-git clone [https://github.com/rossgr/game-web-client.git]
-
+``` bash
+git clone https://github.com/rossgr/game-web-client.git
+```
 
 ```bash
 cd footballcollection/
