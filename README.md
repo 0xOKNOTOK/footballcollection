@@ -26,20 +26,3 @@ cd footballcollection/
 ```bash
 nodemon server/index.js && cd .. & cd client/ && npm run start
 ```
-
-## TODO
-
-**Front-end:** 
-- [ ] Crop images for players on ClubPage.
-- [ ] Add filter functionality to change club, also when viewing from fixtures page or by id.
-- [X] Generate league table and show clubs points, wins, draws, losses + GD.
-- [ ] Start building statistics page with graphs.
-- [x] Split complicated components into smaller ones.
-
-**Back-end:** 
-- [ ] Add data for remaining clubs (Might take a while).
-- [ ] Collect images for players, managers and clubs.
-- [ ] Connect API to Postgres and make use of async handler.
-- [ ] Add additional routes for other functionality.
-
-**THIS LIST WILL EXPAND OVER TIME**
